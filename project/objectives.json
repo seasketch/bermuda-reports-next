@@ -1,0 +1,19 @@
+[
+  {
+    "objectiveId": "eez",
+    "shortDesc": "EEZ Objective",
+    "target": 0.2,
+    "countsToward": {
+      "Fully Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "nursery",
+    "shortDesc": "Nursery Objective",
+    "target": 0.5,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  }
+]

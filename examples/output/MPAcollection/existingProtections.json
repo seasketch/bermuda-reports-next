@@ -1,0 +1,654 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Amenity Park",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 6400.949215,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Amenity Park",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 6400.949215,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Amenity Park",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CableZone",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 2575913.504941,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CableZone",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CableZone",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 2575913.504941,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CoralPreserve",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CoralPreserve",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CoralPreserve",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Ferry Route",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Ferry Route",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Ferry Route",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "MPAExtendedClosure",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "MPAExtendedClosure",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "MPAExtendedClosure",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Nature Reserve",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Nature Reserve",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Nature Reserve",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoLobsterFish",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 2086334.884692,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoLobsterFish",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 2086334.884692,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoLobsterFish",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoNetFish",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoNetFish",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoNetFish",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Prohibited",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Prohibited",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Prohibited",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Recreational Park",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Recreational Park",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Recreational Park",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Reef",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Reef",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Reef",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SeasonalPA",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SeasonalPA",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SeasonalPA",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Shipping Lane",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 183178.939954,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Shipping Lane",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 183178.939954,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Shipping Lane",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SpearfishEx",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 2529533.823326,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SpearfishEx",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 2529533.823326,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SpearfishEx",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Wreck",
+      "sketchId": "47698",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Wreck",
+      "sketchId": "47699",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Wreck",
+      "sketchId": "47700",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 47698,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 47700,
+        "bbox": [
+          -64.635544,
+          32.219616,
+          -64.61518,
+          32.24356
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa2",
+          "3182": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "id": "47700",
+          "name": "mpa2",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:13:32.781633+00:00",
+          "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+          "ACTIVITIES": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESTORE_CON",
+                "RESTORE_OTH"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Restoration/enhancement for conservation",
+                "Restoration/enhancement for other reasons"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 47699,
+        "bbox": [
+          -64.80406,
+          32.30502,
+          -64.78284,
+          32.318546
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa-test",
+          "3182": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "id": "47699",
+          "name": "mpa-test",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:12:56.783691+00:00",
+          "updatedAt": "2024-10-18T17:13:03.853916+00:00",
+          "ACTIVITIES": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESEARCH_NE",
+                "RESTORE_CON",
+                "RECREATE_NE",
+                "UNTREATED_WATER"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Research: non-extractive",
+                "Restoration/enhancement for conservation",
+                "Non-extractive recreation",
+                "Untreated water discharge"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3181": "MPAcollection",
+      "id": "47698",
+      "name": "MPAcollection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-10-18T17:12:52.104779+00:00",
+      "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "252",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3183,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "eez",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 2536750.186057,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 2536717.271329,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "offshore",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 32.915036,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 30576,
+    "bbox": [
+      -64.80406,
+      32.30502,
+      -64.78284,
+      32.318546
+    ],
+    "type": "Feature",
+    "properties": {
+      "3180": "mpa-test",
+      "3182": [
+        "RESEARCH_NE",
+        "RESTORE_CON",
+        "RECREATE_NE",
+        "UNTREATED_WATER"
+      ],
+      "id": "30576",
+      "name": "mpa-test",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2024-06-13T21:56:22.762552+00:00",
+      "updatedAt": "2024-10-17T22:36:08.995821+00:00",
+      "ACTIVITIES": [
+        "RESEARCH_NE",
+        "RESTORE_CON",
+        "RECREATE_NE",
+        "UNTREATED_WATER"
+      ],
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "251",
+      "userAttributes": [
+        {
+          "label": "Allowed Activities",
+          "value": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "exportId": "ACTIVITIES",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Research: non-extractive",
+            "Restoration/enhancement for conservation",
+            "Non-extractive recreation",
+            "Untreated water discharge"
+          ],
+          "formElementId": 3182,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

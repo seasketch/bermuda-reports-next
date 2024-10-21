@@ -1,0 +1,24 @@
+[
+  {
+    "geographyId": "world",
+    "datasourceId": "world",
+    "display": "World",
+    "groups": ["default-boundary"],
+    "precalc": true
+  },
+  {
+    "geographyId": "eez",
+    "datasourceId": "global-eez-mr-v12",
+    "display": "British Exclusive Economic Zone (Bermuda)",
+    "propertyFilter": {
+      "property": "GEONAME",
+      "values": ["British Exclusive Economic Zone (Bermuda)"]
+    },
+    "bboxFilter": [
+      -68.91705579978532, 28.90577059963361, -60.704798800424165,
+      35.80855140022713
+    ],
+    "groups": [],
+    "precalc": false
+  }
+]

@@ -1,0 +1,227 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Amenity Park",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 6400.949215,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CableZone",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "CoralPreserve",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Ferry Route",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "MPAExtendedClosure",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Nature Reserve",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoLobsterFish",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 2086334.884692,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "NoNetFish",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Prohibited",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Recreational Park",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Reef",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SeasonalPA",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Shipping Lane",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 183178.939954,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "SpearfishEx",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 2529533.823326,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "existingProtections",
+      "classId": "Wreck",
+      "sketchId": "30576",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 30576,
+    "bbox": [
+      -64.80406,
+      32.30502,
+      -64.78284,
+      32.318546
+    ],
+    "type": "Feature",
+    "properties": {
+      "3180": "mpa-test",
+      "3182": [
+        "RESEARCH_NE",
+        "RESTORE_CON",
+        "RECREATE_NE",
+        "UNTREATED_WATER"
+      ],
+      "id": "30576",
+      "name": "mpa-test",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2024-06-13T21:56:22.762552+00:00",
+      "updatedAt": "2024-10-17T22:36:08.995821+00:00",
+      "ACTIVITIES": [
+        "RESEARCH_NE",
+        "RESTORE_CON",
+        "RECREATE_NE",
+        "UNTREATED_WATER"
+      ],
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "251",
+      "userAttributes": [
+        {
+          "label": "Allowed Activities",
+          "value": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "exportId": "ACTIVITIES",
+          "fieldType": "MultipleChoice",
+          "valueLabel": [
+            "Research: non-extractive",
+            "Restoration/enhancement for conservation",
+            "Non-extractive recreation",
+            "Untreated water discharge"
+          ],
+          "formElementId": 3182,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

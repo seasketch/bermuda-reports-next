@@ -1,0 +1,338 @@
+[
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Amenity Park",
+    "sketchId": null,
+    "groupId": null,
+    "value": 891272.1345409392
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-CableZone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 722512485.4804707
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-CoralPreserve",
+    "sketchId": null,
+    "groupId": null,
+    "value": 131169086.59880972
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Ferry Route",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6517339.975470967
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-MPAExtendedClosure",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16187183.263564672
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Nature Reserve",
+    "sketchId": null,
+    "groupId": null,
+    "value": 481984.0865045405
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-NoLobsterFish",
+    "sketchId": null,
+    "groupId": null,
+    "value": 81783876.48990932
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-NoNetFish",
+    "sketchId": null,
+    "groupId": null,
+    "value": 477868.165348589
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Prohibited",
+    "sketchId": null,
+    "groupId": null,
+    "value": 414298.8217847631
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Recreational Park",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45249.47162174901
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7228493.34578304
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-SeasonalPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 86667893.38380003
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Shipping Lane",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6389551.462986651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-SpearfishEx",
+    "sketchId": null,
+    "groupId": null,
+    "value": 190472011.52561623
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1259566136.1858354
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "existingProtections-Wreck",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8327541.97962508
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "global-eez-mr-v12-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 464686906553.4439
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "nearshore_dissolved-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2558767340.4536347
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "nurseryMangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 206843.9825959523
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "nurseryReef-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11499790.816360472
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "nurserySeagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2877850.08583523
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Amenity Park",
+    "sketchId": null,
+    "groupId": null,
+    "value": 63
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-CableZone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-CoralPreserve",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Ferry Route",
+    "sketchId": null,
+    "groupId": null,
+    "value": 15
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-MPAExtendedClosure",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Nature Reserve",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-NoLobsterFish",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-NoNetFish",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Prohibited",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Recreational Park",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-SeasonalPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Shipping Lane",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-SpearfishEx",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 193
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "existingProtections-Wreck",
+    "sketchId": null,
+    "groupId": null,
+    "value": 22
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "global-eez-mr-v12-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "nearshore_dissolved-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "nurseryMangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 514
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "nurseryReef-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17619
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "nurserySeagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 516
+  }
+]

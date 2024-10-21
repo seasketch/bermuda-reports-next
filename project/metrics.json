@@ -1,0 +1,143 @@
+[
+  {
+    "metricId": "boundaryAreaOverlap",
+    "type": "areaOverlap",
+    "layerId": "6164aebea04323106537eb5a",
+    "classes": [
+      {
+        "classId": "eez",
+        "display": "EEZ",
+        "datasourceId": "world"
+      },
+      {
+        "classId": "nearshore",
+        "display": "Nearshore",
+        "datasourceId": "nearshore_dissolved"
+      },
+      {
+        "classId": "offshore",
+        "display": "Offshore",
+        "datasourceId": "nearshore_dissolved"
+      }
+    ]
+  },
+  {
+    "metricId": "protection",
+    "type": "areaOverlap",
+    "layerId": "6164aebea04323106537eb5a",
+    "classes": [
+      {
+        "classId": "eez",
+        "display": "EEZ",
+        "datasourceId": "world"
+      }
+    ]
+  },
+  {
+    "metricId": "existingProtections",
+    "type": "areaOverlap",
+    "datasourceId": "existingProtections",
+    "layerId": "GFIMevqCY",
+    "classes": [
+      {
+        "classId": "Ferry Route",
+        "classKey": "Type",
+        "display": "Ferry Routes"
+      },
+      {
+        "classId": "Shipping Lane",
+        "classKey": "Type",
+        "display": "Shipping Lanes"
+      },
+      {
+        "classId": "CableZone",
+        "classKey": "Type",
+        "display": "Cable Zones"
+      },
+      {
+        "classId": "SpearfishEx",
+        "classKey": "Type",
+        "display": "Spearfish Exclusion Zones"
+      },
+      {
+        "classId": "SeasonalPA",
+        "classKey": "Type",
+        "display": "Seasonally Protected Areas"
+      },
+      {
+        "classId": "MPAExtendedClosure",
+        "classKey": "Type",
+        "display": "MPA Extended Closures"
+      },
+      {
+        "classId": "Wreck",
+        "classKey": "Type",
+        "display": "Wrecks"
+      },
+      {
+        "classId": "Reef",
+        "classKey": "Type",
+        "display": "Protected Dive Sites"
+      },
+      {
+        "classId": "Prohibited",
+        "classKey": "Type",
+        "display": "Prohibited Marine Board Notice Areas"
+      },
+      {
+        "classId": "NoNetFish",
+        "classKey": "Type",
+        "display": "No Net Fishing Areas"
+      },
+      {
+        "classId": "NoLobsterFish",
+        "classKey": "Type",
+        "display": "No Lobster Fishing Areas"
+      },
+      {
+        "classId": "Amenity Park",
+        "classKey": "Type",
+        "display": "Amenity Parks"
+      },
+      {
+        "classId": "Recreational Park",
+        "classKey": "Type",
+        "display": "Recreational Parks"
+      },
+      {
+        "classId": "Nature Reserve",
+        "classKey": "Type",
+        "display": "Nature Reserves"
+      },
+      {
+        "classId": "CoralPreserve",
+        "classKey": "Type",
+        "display": "Coral Preserves"
+      }
+    ]
+  },
+  {
+    "metricId": "nurseryHabitat",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "nurseryReef",
+        "display": "Nursery Reef",
+        "datasourceId": "nurseryReef",
+        "layerId": "619420a12633975e13933fe0"
+      },
+      {
+        "classId": "nurserySeagrass",
+        "display": "Seagrass",
+        "datasourceId": "nurserySeagrass",
+        "layerId": "5dc07170cae3e4074e651711"
+      },
+      {
+        "classId": "nurseryMangrove",
+        "display": "Mangrove",
+        "datasourceId": "nurseryMangroves",
+        "layerId": "645d173281457e440820e57f"
+      }
+    ]
+  }
+]
