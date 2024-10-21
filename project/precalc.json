@@ -257,6 +257,110 @@
   },
   {
     "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_bruvsFishDiversity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 387782530.758422
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_commercialFishDensityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 985324957.727121
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_commercialFishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 746392036.152776
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_commericalFishingDiversityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 760352866.853252
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_coralCover-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 574736653.692902
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_coralDiversityRichness-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 574736653.692902
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_coralRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 409591059.69442
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_fishDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 983492721.271224
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_fishDiversityBREAM-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 759190678.522031
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_fishDiversityBRUVs-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 388240859.82076
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_fishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 900670599.613546
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_rugosity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 399315171.316746
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "species_seagrassIndexValue-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2228551792.917466
+  },
+  {
+    "geographyId": "world",
     "metricId": "count",
     "classId": "existingProtections-Amenity Park",
     "sketchId": null,
@@ -513,6 +617,110 @@
   },
   {
     "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_bruvsFishDiversity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 896940
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_commercialFishDensityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 896940
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_commercialFishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 460596
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_commericalFishingDiversityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 896940
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_coralCover-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_coralDiversityRichness-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_coralRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_fishDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_fishDiversityBREAM-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_fishDiversityBRUVs-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_fishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 460596
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_rugosity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1050651
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "species_seagrassIndexValue-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 212744
+  },
+  {
+    "geographyId": "world",
     "metricId": "sum",
     "classId": "offshore_abyssopelagic-total",
     "sketchId": null,
@@ -590,6 +798,110 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 198236
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_bruvsFishDiversity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 126106.454904
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_commercialFishDensityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11334.590069
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_commercialFishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3823.979541
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_commericalFishingDiversityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 490574.429317
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_coralCover-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 222308.245653
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_coralDiversityRichness-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 235098.687295
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_coralRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 74467.709046
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_fishDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 257234.908821
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_fishDiversityBREAM-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 338774.642573
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_fishDiversityBRUVs-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 197657.444396
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_fishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 19976.454171
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_rugosity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 73364.222863
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "species_seagrassIndexValue-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3028.267552
   },
   {
     "geographyId": "world",
@@ -774,5 +1086,109 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 198236
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_bruvsFishDiversity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 54348
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_commercialFishDensityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 138094
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_commercialFishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 106880
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_commericalFishingDiversityPlatform-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 106564
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_coralCover-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 94299
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_coralDiversityRichness-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 94299
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_coralRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 67203
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_fishDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 161365
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_fishDiversityBREAM-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 124563
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_fishDiversityBRUVs-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 63700
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_fishRecruitDensity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 128972
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_rugosity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 65517
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "species_seagrassIndexValue-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 210977
   }
 ]

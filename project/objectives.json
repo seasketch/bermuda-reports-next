@@ -60,5 +60,23 @@
       "Fully Protected Area": "yes",
       "High Protected Area": "yes"
     }
+  },
+  {
+    "objectiveId": "species20",
+    "shortDesc": "Species Protection Objective 20%",
+    "target": 0.2,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "species50",
+    "shortDesc": "Species Protection Objective 50%",
+    "target": 0.5,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
   }
 ]

@@ -279,6 +279,103 @@
     ]
   },
   {
+    "metricId": "speciesProtection",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "species_commercialFishDensityPlatform",
+        "display": "Commercial Fish Density",
+        "datasourceId": "species_commercialFishDensityPlatform",
+        "layerId": "628eb14a662193ee010776b6",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_commercialFishRecruitDensity",
+        "display": "Commercial Fish Recruit Density",
+        "datasourceId": "species_commercialFishRecruitDensity",
+        "layerId": "629a51668c88eaa573a8f554",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_commericalFishingDiversityPlatform",
+        "display": "Commercial Fish Diversity (BREAM)",
+        "datasourceId": "species_commericalFishingDiversityPlatform",
+        "layerId": "628eb0f6662193ee010775d9",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_bruvsFishDiversity",
+        "display": "Commercial Fish Diversity (BRUV)",
+        "datasourceId": "species_bruvsFishDiversity",
+        "layerId": "629a51ad8c88eaa573a8f63e",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_coralCover",
+        "display": "Coral Cover",
+        "datasourceId": "species_coralCover",
+        "layerId": "614df361c33508c127015a20",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_coralDiversityRichness",
+        "display": "Coral Diversity (richness)",
+        "datasourceId": "species_coralDiversityRichness",
+        "layerId": "614df361c33508c127015a22",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_coralRecruitDensity",
+        "display": "Coral Recruit Density",
+        "datasourceId": "species_coralRecruitDensity",
+        "layerId": "614df361c33508c127015a24",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_rugosity",
+        "display": "Rugosity (complexity)",
+        "datasourceId": "species_rugosity",
+        "layerId": "614df361c33508c127015a26",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_fishDiversityBRUVs",
+        "display": "Fish Diversity (BRUV)",
+        "datasourceId": "species_fishDiversityBRUVs",
+        "layerId": "614df361c33508c127015a14",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_fishDensity",
+        "display": "Fish Density",
+        "datasourceId": "species_fishDensity",
+        "layerId": "614df361c33508c127015a18",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_fishDiversityBREAM",
+        "display": "Fish Diversity (BREAM)",
+        "datasourceId": "species_fishDiversityBREAM",
+        "layerId": "614df361c33508c127015a16",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_fishRecruitDensity",
+        "display": "Fish Recruit Density",
+        "datasourceId": "species_fishRecruitDensity",
+        "layerId": "6192ac9af1d07d5b37bfd761",
+        "objectiveId": "species20"
+      },
+      {
+        "classId": "species_seagrassIndexValue",
+        "display": "Seagrass",
+        "datasourceId": "species_seagrassIndexValue",
+        "layerId": "614df361c33508c127015a1e",
+        "objectiveId": "species50"
+      }
+    ]
+  },
+  {
     "metricId": "nurseryHabitat",
     "type": "areaOverlap",
     "classes": [

@@ -1,0 +1,586 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_bruvsFishDiversity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_bruvsFishDiversity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_bruvsFishDiversity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishDensityPlatform",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 74.266236,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishDensityPlatform",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 74.266236,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishDensityPlatform",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishRecruitDensity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 20.46568,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishRecruitDensity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 20.46568,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commercialFishRecruitDensity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commericalFishingDiversityPlatform",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 2621.139425,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commericalFishingDiversityPlatform",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 2621.139425,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_commericalFishingDiversityPlatform",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralCover",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 306.490372,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralCover",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 306.490372,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralCover",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralDiversityRichness",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 336.812286,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralDiversityRichness",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 336.812286,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralDiversityRichness",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralRecruitDensity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 176.633043,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralRecruitDensity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 176.633043,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_coralRecruitDensity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDensity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 1933.322419,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDensity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 1933.322419,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDensity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBREAM",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 1559.638067,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBREAM",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 1559.638067,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBREAM",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBRUVs",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBRUVs",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishDiversityBRUVs",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishRecruitDensity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 85.602479,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishRecruitDensity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 85.602479,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_fishRecruitDensity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_rugosity",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 119.09748,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_rugosity",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 119.09748,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_rugosity",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_seagrassIndexValue",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 34.704754,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_seagrassIndexValue",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 34.704754,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "speciesProtection",
+      "classId": "species_seagrassIndexValue",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 47698,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 47700,
+        "bbox": [
+          -64.635544,
+          32.219616,
+          -64.61518,
+          32.24356
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa2",
+          "3182": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "id": "47700",
+          "name": "mpa2",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:13:32.781633+00:00",
+          "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+          "ACTIVITIES": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESTORE_CON",
+                "RESTORE_OTH"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Restoration/enhancement for conservation",
+                "Restoration/enhancement for other reasons"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 47699,
+        "bbox": [
+          -64.80406,
+          32.30502,
+          -64.78284,
+          32.318546
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa-test",
+          "3182": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "id": "47699",
+          "name": "mpa-test",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:12:56.783691+00:00",
+          "updatedAt": "2024-10-18T17:13:03.853916+00:00",
+          "ACTIVITIES": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESEARCH_NE",
+                "RESTORE_CON",
+                "RECREATE_NE",
+                "UNTREATED_WATER"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Research: non-extractive",
+                "Restoration/enhancement for conservation",
+                "Non-extractive recreation",
+                "Untreated water discharge"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3181": "MPAcollection",
+      "id": "47698",
+      "name": "MPAcollection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-10-18T17:12:52.104779+00:00",
+      "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "252",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3183,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

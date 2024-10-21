@@ -29,6 +29,7 @@
     "src/functions/priorityAreas.ts",
     "src/functions/nearshoreHabitat.ts",
     "src/functions/offshoreHabitat.ts",
-    "src/functions/offshoreHabitatWorker.ts"
+    "src/functions/offshoreHabitatWorker.ts",
+    "src/functions/speciesProtection.ts"
   ]
 }

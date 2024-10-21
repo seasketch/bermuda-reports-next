@@ -394,15 +394,197 @@
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Plains.tif"
   },
   {
-    "src": "data/src/Analytics/Prioritization Inputs/wgs84_SeamountsAll.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "offshore_seamounts",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
     "created": "2024-10-21T20:30:23.110Z",
     "lastUpdated": "2024-10-21T20:30:23.110Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_SeamountsAll.tif"
+  },
+  {
+    "datasourceId": "species_commercialFishDensityPlatform",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:26:41.313Z",
+    "lastUpdated": "2024-10-21T22:26:41.313Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_commercial_fish_density_platform.tif"
+  },
+  {
+    "datasourceId": "species_commericalFishingDiversityPlatform",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:27:09.421Z",
+    "lastUpdated": "2024-10-21T22:27:09.421Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_commercial_fish_diversity_platform.tif"
+  },
+  {
+    "datasourceId": "species_commercialFishRecruitDensity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-21T22:27:46.705Z",
+    "lastUpdated": "2024-10-21T22:27:46.705Z",
+    "src": "data/src/Analytics/Prioritization Inputs/commercial_fish_recruit_density_2023.tif"
+  },
+  {
+    "datasourceId": "species_bruvsFishDiversity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:28:09.830Z",
+    "lastUpdated": "2024-10-21T22:28:09.830Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_bruvs_fish_diversity.tif"
+  },
+  {
+    "datasourceId": "species_coralCover",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:28:27.904Z",
+    "lastUpdated": "2024-10-21T22:28:27.904Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral cover1.tif"
+  },
+  {
+    "datasourceId": "species_coralDiversityRichness",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:28:54.276Z",
+    "lastUpdated": "2024-10-21T22:28:54.276Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral diversity (richness)1.tif"
+  },
+  {
+    "datasourceId": "species_coralRecruitDensity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:29:12.266Z",
+    "lastUpdated": "2024-10-21T22:29:12.266Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral recruit density1.tif"
+  },
+  {
+    "datasourceId": "species_rugosity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:29:29.562Z",
+    "lastUpdated": "2024-10-21T22:29:29.562Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Rugosity1.tif"
+  },
+  {
+    "datasourceId": "species_fishDiversityBRUVs",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:30:13.245Z",
+    "lastUpdated": "2024-10-21T22:30:13.245Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish diversity (BRUVs data)1.tif"
+  },
+  {
+    "datasourceId": "species_fishDensity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:30:29.833Z",
+    "lastUpdated": "2024-10-21T22:30:29.833Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish density1.tif"
+  },
+  {
+    "datasourceId": "species_fishDiversityBREAM",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T22:30:48.431Z",
+    "lastUpdated": "2024-10-21T22:30:48.431Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish diversity (BREAM data)1.tif"
+  },
+  {
+    "datasourceId": "species_fishRecruitDensity",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-21T22:31:12.788Z",
+    "lastUpdated": "2024-10-21T22:31:12.788Z",
+    "src": "data/src/Analytics/Prioritization Inputs/fish_recruit_density_2023.tif"
+  },
+  {
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Seagrass Index Value1.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "species_seagrassIndexValue",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-10-21T22:31:33.199Z",
+    "lastUpdated": "2024-10-21T22:31:33.199Z",
     "noDataValue": -3.4e+38,
     "measurementType": "quantitative",
     "precalc": true

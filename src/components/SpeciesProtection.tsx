@@ -15,22 +15,19 @@ import {
   ReportResult,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  squareMeterToMile,
   toNullSketchArray,
   toPercentMetric,
   valueFormatter,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 
-const Number = new Intl.NumberFormat("en", { style: "decimal" });
-
 /**
- * OffshoreHabitat component
+ * SpeciesProtection component
  *
  * @param props - geographyId
  * @returns A react component which displays an overlap report
  */
-export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
+export const SpeciesProtection: React.FunctionComponent<GeogProp> = (props) => {
   const { t } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -38,24 +35,22 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("offshoreHabitat", t);
+  const metricGroup = project.getMetricGroup("speciesProtection", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
-    "area",
+    "sum",
     curGeography.geographyId,
   );
 
   // Labels
-  const titleLabel = t("Habitat Protection - Offshore");
+  const titleLabel = t("Species Protection");
   const mapLabel = t("Map");
-  const withinLabel = t("Within Plan");
   const percWithinLabel = t("% Within Plan");
-  const unitsLabel = t("mi²");
 
   return (
     <ResultsCard
       title={titleLabel}
-      functionName="offshoreHabitat"
+      functionName="speciesProtection"
       extraParams={{ geographyIds: [curGeography.geographyId] }}
     >
       {(data: ReportResult) => {
@@ -82,10 +77,13 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
         return (
           <ReportError>
             <p>
-              <Trans i18nKey="OffshoreHabitat 1">
-                Plans should ensure the representative coverage of each key
-                habitat type. This report summarizes the percentage of each
-                offshore habitat that overlaps with this plan.
+              <Trans i18nKey="SpeciesProtection 1">
+                Plans should prioritize areas of high quality habitat used by
+                unique, rare, and/or threatened species named in the Protected
+                Species Act. High quality habitat areas have been determined
+                using 9 different measures of reef health. This report
+                summarizes the proportion of high quality habitat within this
+                plan for each measure.
               </Trans>
             </p>
 
@@ -95,28 +93,9 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
               objective={objectives}
               columnConfig={[
                 {
-                  columnLabel: " ",
+                  columnLabel: t("Indicator"),
                   type: "class",
-                  width: 30,
-                },
-                {
-                  columnLabel: withinLabel,
-                  type: "metricValue",
-                  metricId: metricGroup.metricId,
-                  valueFormatter: (val) =>
-                    Number.format(
-                      Math.round(
-                        squareMeterToMile(
-                          typeof val === "string" ? parseInt(val) : val,
-                        ),
-                      ),
-                    ),
-                  valueLabel: unitsLabel,
-                  colStyle: { textAlign: "center" },
-                  chartOptions: {
-                    showTitle: true,
-                  },
-                  width: 20,
+                  width: 50,
                 },
                 {
                   columnLabel: percWithinLabel,
@@ -124,8 +103,7 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
                   metricId: percMetricIdName,
                   valueFormatter: "percent",
                   chartOptions: {
-                    targetLabelPosition: "bottom",
-                    targetLabelStyle: "tight",
+                    showTitle: true,
                   },
                   targetValueFormatter: (
                     value: number,
@@ -152,13 +130,23 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
             )}
 
             <Collapse title={t("Learn More")}>
-              <Trans i18nKey="OffshoreHabitat - learn more">
+              <Trans i18nKey="SpeciesProtection - learn more">
                 <p>
-                  The Steering Committee approved the objective of ensuring a
-                  20% representative coverage of each key habitat type when
-                  designating fully protected MPAs, and higher coverage as
-                  needed to satisfy other objectives. Only MPAs with a Full
-                  Protection designation count towards meeting this objective.
+                  Objective: When designing marine protected areas, prioritize
+                  those areas that seek to protect habitat used by unique, rare,
+                  and/or threatened species named in the Protected Species Act.
+                </p>
+                <p>
+                  A reef index has been developed that identifies the best
+                  habitat based on 9 different measures of reef health. Goals
+                  have been established for each measure to prioritize
+                  representative coverage of different high quality habitat
+                  types.
+                </p>
+                <p>
+                  There are areas that will score high for multiple measures of
+                  reef health and may be good candidates for inclusion in a
+                  plan.
                 </p>
               </Trans>
             </Collapse>
