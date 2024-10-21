@@ -170,6 +170,86 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "offshore_abyssopelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 467328299475.1135
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_bathypelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 8033476886.910751
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_coldWaterCoral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 573819777.636482
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_escarpments-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6630806319.354905
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_knolls-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 102394951431.5767
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_pelagic1-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 194652420124.9089
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_pelagic2-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 101566100641.65733
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_pelagic3-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 166790282033.00415
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_plains-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 357999783492.0942
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "offshore_seamounts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 35142139105.797356
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "priorityModel-total",
     "sketchId": null,
     "groupId": null,
@@ -346,9 +426,353 @@
   {
     "geographyId": "world",
     "metricId": "count",
+    "classId": "offshore_abyssopelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11074
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_bathypelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_coldWaterCoral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_escarpments-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_knolls-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_pelagic1-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_pelagic2-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_pelagic3-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_plains-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12376
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "offshore_seamounts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4343451
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
     "classId": "priorityModel-total",
     "sketchId": null,
     "groupId": null,
     "value": 645
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_abyssopelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6580
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_bathypelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 126
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_coldWaterCoral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_escarpments-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 104
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_knolls-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1606
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_pelagic1-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3053
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_pelagic2-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1593
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_pelagic3-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2616
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_plains-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 5615
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "offshore_seamounts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 198236
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-1",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11981
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-10",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 40329
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-11",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 27169
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-12",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 90752
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-13",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 185997
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-2",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 8276
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-3",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 31994
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-4",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 44613
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-5",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 827
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-6",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 170
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-7",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 15937
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-8",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 40437
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "nearshore_habitat-9",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 31815
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_abyssopelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6580
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_bathypelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 126
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_coldWaterCoral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_escarpments-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 104
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_knolls-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1606
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_pelagic1-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3053
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_pelagic2-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1593
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_pelagic3-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2616
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_plains-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 5615
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "offshore_seamounts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 198236
   }
 ]

@@ -15,5 +15,50 @@
       "Fully Protected Area": "yes",
       "High Protected Area": "yes"
     }
+  },
+  {
+    "objectiveId": "nearshoreHabitat",
+    "shortDesc": "Nearshore Habitat Objective",
+    "target": 0.2,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "offshoreHabitat20",
+    "shortDesc": "Offshore Habitat Objective 20%",
+    "target": 0.2,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "offshoreHabitat100",
+    "shortDesc": "Offshore Habitat Objective 100%",
+    "target": 1,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "offshoreHabitat10",
+    "shortDesc": "Offshore Habitat Objective 10%",
+    "target": 0.1,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
+  },
+  {
+    "objectiveId": "offshoreHabitat40",
+    "shortDesc": "Offshore Habitat Objective 40%",
+    "target": 0.4,
+    "countsToward": {
+      "Fully Protected Area": "yes",
+      "High Protected Area": "yes"
+    }
   }
 ]

@@ -239,18 +239,172 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Analytics/PriorityModel/prioritySolution.shp",
-    "layerName": "prioritySolution",
-    "geo_type": "vector",
     "datasourceId": "priorityModel",
+    "geo_type": "vector",
     "formats": [
       "fgb"
     ],
+    "precalc": true,
+    "layerName": "prioritySolution",
     "classKeys": [],
     "created": "2024-10-21T18:35:40.205Z",
     "lastUpdated": "2024-10-21T18:35:40.205Z",
+    "src": "data/src/Analytics/PriorityModel/prioritySolution.shp",
     "propertiesToKeep": [],
-    "explodeMulti": true,
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "nearshore_habitat",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "categorical",
+    "band": 1,
+    "noDataValue": -3.4028235e+38,
+    "created": "2024-10-21T19:56:34.896Z",
+    "lastUpdated": "2024-10-21T19:56:34.896Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Habitat Zones1.tif"
+  },
+  {
+    "datasourceId": "offshore_abyssopelagic",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:27:45.053Z",
+    "lastUpdated": "2024-10-21T20:27:45.053Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_feature_abyssopelagic.tif"
+  },
+  {
+    "datasourceId": "offshore_bathypelagic",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:28:08.138Z",
+    "lastUpdated": "2024-10-21T20:28:08.138Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Bathypelagic1.tif"
+  },
+  {
+    "datasourceId": "offshore_coldWaterCoral",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:28:29.669Z",
+    "lastUpdated": "2024-10-21T20:28:29.669Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Cold water coral1.tif"
+  },
+  {
+    "datasourceId": "offshore_escarpments",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:28:46.029Z",
+    "lastUpdated": "2024-10-21T20:28:46.029Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Escarpments1.tif"
+  },
+  {
+    "datasourceId": "offshore_knolls",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:29:01.678Z",
+    "lastUpdated": "2024-10-21T20:29:01.678Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Knolls1.tif"
+  },
+  {
+    "datasourceId": "offshore_pelagic1",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:29:21.454Z",
+    "lastUpdated": "2024-10-21T20:29:21.454Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 1.tif"
+  },
+  {
+    "datasourceId": "offshore_pelagic2",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:29:35.649Z",
+    "lastUpdated": "2024-10-21T20:29:35.649Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 2.tif"
+  },
+  {
+    "datasourceId": "offshore_pelagic3",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:29:51.104Z",
+    "lastUpdated": "2024-10-21T20:29:51.104Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 3.tif"
+  },
+  {
+    "datasourceId": "offshore_plains",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-21T20:30:05.076Z",
+    "lastUpdated": "2024-10-21T20:30:05.076Z",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Plains.tif"
+  },
+  {
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_SeamountsAll.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "offshore_seamounts",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-10-21T20:30:23.110Z",
+    "lastUpdated": "2024-10-21T20:30:23.110Z",
+    "noDataValue": -3.4e+38,
+    "measurementType": "quantitative",
     "precalc": true
   }
 ]

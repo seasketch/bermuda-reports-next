@@ -119,12 +119,162 @@
   {
     "metricId": "priorityAreas",
     "type": "areaOverlap",
-    "layerId": "64651c2e0bc8019b3c6b754e",
+    "layerId": "GIw19n0Xy",
     "classes": [
       {
         "classId": "priorityAreas",
         "display": "Priority Areas",
         "datasourceId": "priorityModel"
+      }
+    ]
+  },
+  {
+    "metricId": "nearshoreHabitat",
+    "type": "countOverlap",
+    "layerId": "QYQRdyCs8",
+    "datasourceId": "nearshore_habitat",
+    "objectiveId": "nearshoreHabitat",
+    "classes": [
+      {
+        "classId": "1",
+        "classKey": "1",
+        "display": "Bays and Coast"
+      },
+      {
+        "classId": "2",
+        "classKey": "2",
+        "display": "Madracis Reef"
+      },
+      {
+        "classId": "3",
+        "classKey": "3",
+        "display": "Montastraea Reef"
+      },
+      {
+        "classId": "4",
+        "classKey": "4",
+        "display": "Diploria Porites Reef"
+      },
+      {
+        "classId": "5",
+        "classKey": "5",
+        "display": "Castle Harbour Madracis"
+      },
+      {
+        "classId": "6",
+        "classKey": "6",
+        "display": "Algal Vermetid Reef"
+      },
+      {
+        "classId": "7",
+        "classKey": "7",
+        "display": "Rim Reef"
+      },
+      {
+        "classId": "8",
+        "classKey": "8",
+        "display": "Main Terrace Reef"
+      },
+      {
+        "classId": "9",
+        "classKey": "9",
+        "display": "Fore Reef"
+      },
+      {
+        "classId": "10",
+        "classKey": "10",
+        "display": "Mesophotic"
+      },
+      {
+        "classId": "11",
+        "classKey": "11",
+        "display": "Rariphotic"
+      },
+      {
+        "classId": "12",
+        "classKey": "12",
+        "display": "Mesopelagic"
+      },
+      {
+        "classId": "13",
+        "classKey": "13",
+        "display": "Bathypelagic"
+      }
+    ]
+  },
+  {
+    "metricId": "offshoreHabitat",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "offshore_abyssopelagic",
+        "datasourceId": "offshore_abyssopelagic",
+        "display": "Abyssopelagic",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "J14qFT4Oz"
+      },
+      {
+        "classId": "offshore_bathypelagic",
+        "datasourceId": "offshore_bathypelagic",
+        "display": "Bathypelagic",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "0jL7KxgwG"
+      },
+      {
+        "classId": "offshore_coldWaterCoral",
+        "datasourceId": "offshore_coldWaterCoral",
+        "display": "Cold Water Coral",
+        "objectiveId": "offshoreHabitat100",
+        "layerId": "ZCAwAACEN"
+      },
+      {
+        "classId": "offshore_escarpments",
+        "datasourceId": "offshore_escarpments",
+        "display": "Escarpments",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "t8H9UFMfy"
+      },
+      {
+        "classId": "offshore_knolls",
+        "datasourceId": "offshore_knolls",
+        "display": "Knolls",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "zOyQ3Ot_D"
+      },
+      {
+        "classId": "offshore_pelagic1",
+        "datasourceId": "offshore_pelagic1",
+        "display": "Pelagic Zone 1",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "ENc3oMPSE"
+      },
+      {
+        "classId": "offshore_pelagic2",
+        "datasourceId": "offshore_pelagic2",
+        "display": "Pelagic Zone 2",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "wa93op567"
+      },
+      {
+        "classId": "offshore_pelagic3",
+        "datasourceId": "offshore_pelagic3",
+        "display": "Pelagic Zone 3",
+        "objectiveId": "offshoreHabitat20",
+        "layerId": "mWWpJqj8Z"
+      },
+      {
+        "classId": "offshore_plains",
+        "datasourceId": "offshore_plains",
+        "display": "Plains",
+        "objectiveId": "offshoreHabitat10",
+        "layerId": "t04gThIwR"
+      },
+      {
+        "classId": "offshore_seamounts",
+        "datasourceId": "offshore_seamounts",
+        "display": "Seamounts",
+        "layerId": "yp0NV3fY6",
+        "objectiveId": "offshoreHabitat40"
       }
     ]
   },

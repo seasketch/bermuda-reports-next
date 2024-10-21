@@ -26,6 +26,8 @@
     "src/functions/nurseryHabitat.ts",
     "src/functions/nurseryHabitatWorker.ts",
     "src/functions/protection.ts",
-    "src/functions/priorityAreas.ts"
+    "src/functions/priorityAreas.ts",
+    "src/functions/nearshoreHabitat.ts",
+    "src/functions/offshoreHabitat.ts"
   ]
 }
