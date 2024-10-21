@@ -117,6 +117,18 @@
     ]
   },
   {
+    "metricId": "priorityAreas",
+    "type": "areaOverlap",
+    "layerId": "64651c2e0bc8019b3c6b754e",
+    "classes": [
+      {
+        "classId": "priorityAreas",
+        "display": "Priority Areas",
+        "datasourceId": "priorityModel"
+      }
+    ]
+  },
+  {
     "metricId": "nurseryHabitat",
     "type": "areaOverlap",
     "classes": [

@@ -224,16 +224,31 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Analytics/NurseryHabs/Seagrass_2014_50mbuff.shp",
-    "layerName": "Seagrass_2014_50mbuff",
-    "geo_type": "vector",
     "datasourceId": "nurserySeagrass",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "Seagrass_2014_50mbuff",
+    "classKeys": [],
+    "created": "2024-10-18T21:40:28.358Z",
+    "lastUpdated": "2024-10-18T21:40:28.358Z",
+    "src": "data/src/Analytics/NurseryHabs/Seagrass_2014_50mbuff.shp",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Analytics/PriorityModel/prioritySolution.shp",
+    "layerName": "prioritySolution",
+    "geo_type": "vector",
+    "datasourceId": "priorityModel",
     "formats": [
       "fgb"
     ],
     "classKeys": [],
-    "created": "2024-10-18T21:40:28.358Z",
-    "lastUpdated": "2024-10-18T21:40:28.358Z",
+    "created": "2024-10-21T18:35:40.205Z",
+    "lastUpdated": "2024-10-21T18:35:40.205Z",
     "propertiesToKeep": [],
     "explodeMulti": true,
     "precalc": true

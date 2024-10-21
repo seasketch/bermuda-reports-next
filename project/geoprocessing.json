@@ -25,6 +25,7 @@
     "src/functions/existingProtectionsWorker.ts",
     "src/functions/nurseryHabitat.ts",
     "src/functions/nurseryHabitatWorker.ts",
-    "src/functions/protection.ts"
+    "src/functions/protection.ts",
+    "src/functions/priorityAreas.ts"
   ]
 }

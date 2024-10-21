@@ -169,6 +169,14 @@
   },
   {
     "geographyId": "world",
+    "metricId": "area",
+    "classId": "priorityModel-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 411369085.8030003
+  },
+  {
+    "geographyId": "world",
     "metricId": "count",
     "classId": "existingProtections-Amenity Park",
     "sketchId": null,
@@ -334,5 +342,13 @@
     "sketchId": null,
     "groupId": null,
     "value": 516
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "priorityModel-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 645
   }
 ]
