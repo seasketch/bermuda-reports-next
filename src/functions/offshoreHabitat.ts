@@ -90,5 +90,6 @@ export default new GeoprocessingHandler(offshoreHabitat, {
   memory: 1024, // megabytes
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
-  requiresProperties: ["offshoreHabitatWorker"],
+  requiresProperties: [],
+  workers: ["offshoreHabitatWorker"],
 });
