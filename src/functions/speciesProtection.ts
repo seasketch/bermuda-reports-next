@@ -99,7 +99,7 @@ export async function speciesProtection(
 export default new GeoprocessingHandler(speciesProtection, {
   title: "speciesProtection",
   description: "species protection overlap",
-  timeout: 500, // seconds
+  timeout: 900, // seconds
   memory: 1024, // megabytes
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required

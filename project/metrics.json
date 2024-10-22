@@ -383,19 +383,19 @@
         "classId": "nurseryReef",
         "display": "Nursery Reef",
         "datasourceId": "nurseryReef",
-        "layerId": "619420a12633975e13933fe0"
+        "layerId": "EtX3NU307"
       },
       {
         "classId": "nurserySeagrass",
         "display": "Seagrass",
         "datasourceId": "nurserySeagrass",
-        "layerId": "5dc07170cae3e4074e651711"
+        "layerId": "NxAh2NGa_"
       },
       {
         "classId": "nurseryMangrove",
         "display": "Mangrove",
         "datasourceId": "nurseryMangroves",
-        "layerId": "645d173281457e440820e57f"
+        "layerId": "vHpXWzjse"
       }
     ]
   }

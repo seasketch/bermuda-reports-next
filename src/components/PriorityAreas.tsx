@@ -23,7 +23,6 @@ import {
   UserAttribute,
   capitalize,
   firstMatchingMetric,
-  getIucnCategoryForActivities,
   isSketchCollection,
   keyBy,
   percentWithEdge,
@@ -88,20 +87,6 @@ export const PriorityAreas: React.FunctionComponent<GeogProp> = (props) => {
 };
 const genSingle = (data: ReportResult, userAttributes: UserAttribute[]) => {
   const precalcTotals = project.getPrecalcMetrics(metricGroup, "area", "world");
-
-  // Lookup group ID
-  const activityProp = userAttributes.find(
-    (a) => a.exportId === "ACTIVITIES",
-  ) as UserAttribute | undefined;
-  if (!activityProp)
-    throw new Error("Missing activities in sketch, something is not right");
-  const activities =
-    typeof activityProp.value === "string"
-      ? activityProp.value === ""
-        ? []
-        : JSON.parse(activityProp.value)
-      : activityProp.value;
-  const groupId = getIucnCategoryForActivities(activities).level;
 
   // Class metrics
   const classPercMetrics = toPercentMetric(

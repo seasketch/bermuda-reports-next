@@ -1,9 +1,9 @@
 import React from "react";
 import { SizeCard } from "./SizeCard.js";
-import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { ExistingProtections } from "./ExistingProtections.js";
 import { Protection } from "./Protection.js";
 import { PriorityAreas } from "./PriorityAreas.js";
+import SketchAttributesCard from "./SketchAttributesCard.js";
 
 const ReportPage = () => {
   return (

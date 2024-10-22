@@ -203,11 +203,15 @@ const genSingle = (
   if (!activityProp)
     throw new Error("Missing activities in sketch, something is not right");
   const activities =
-    typeof activityProp.value === "string"
-      ? activityProp.value === ""
-        ? []
-        : JSON.parse(activityProp.value)
-      : activityProp.value;
+    !activityProp.value || activityProp.value === null
+      ? []
+      : typeof activityProp.value === "string"
+        ? activityProp.value === ""
+          ? []
+          : JSON.parse(activityProp.value)
+        : activityProp.value;
+  if (!activities)
+    throw new Error("Missing activities in sketch, something is not right");
   const groupId = getIucnCategoryForActivities(activities).level;
 
   // Class metrics
