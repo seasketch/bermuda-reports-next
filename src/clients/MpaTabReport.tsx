@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SegmentControl, ReportPage } from "@seasketch/geoprocessing/client-ui";
-import ViabilityPage from "../components/ViabilityPage.js";
-import RepresentationPage from "../components/RepresentationPage.js";
+import OverviewPage from "../components/OverviewPage.js";
+import EcologicalPage from "../components/EcologicalPage.js";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync.js";
 
@@ -9,13 +9,13 @@ const enableAllTabs = false;
 
 const BaseReport = () => {
   const { t } = useTranslation();
-  const viabilityId = "viability";
-  const representationId = "representation";
+  const overviewId = "overview";
+  const ecologicalId = "ecological";
   const segments = [
-    { id: viabilityId, label: t("Overview") },
-    { id: representationId, label: t("Ecological") },
+    { id: overviewId, label: t("Overview") },
+    { id: ecologicalId, label: t("Ecological") },
   ];
-  const [tab, setTab] = useState<string>(viabilityId);
+  const [tab, setTab] = useState<string>(overviewId);
   return (
     <>
       <div style={{ marginTop: 5 }}>
@@ -25,11 +25,11 @@ const BaseReport = () => {
           segments={segments}
         />
       </div>
-      <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
-        <ViabilityPage />
+      <ReportPage hidden={!enableAllTabs && tab !== overviewId}>
+        <OverviewPage />
       </ReportPage>
-      <ReportPage hidden={!enableAllTabs && tab !== representationId}>
-        <RepresentationPage />
+      <ReportPage hidden={!enableAllTabs && tab !== ecologicalId}>
+        <EcologicalPage />
       </ReportPage>
     </>
   );
