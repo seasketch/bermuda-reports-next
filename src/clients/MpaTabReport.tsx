@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SegmentControl, ReportPage } from "@seasketch/geoprocessing/client-ui";
 import OverviewPage from "../components/OverviewPage.js";
 import EcologicalPage from "../components/EcologicalPage.js";
+import HumanUsePage from "../components/HumanUsePage.js";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync.js";
 
@@ -11,9 +12,11 @@ const BaseReport = () => {
   const { t } = useTranslation();
   const overviewId = "overview";
   const ecologicalId = "ecological";
+  const humanUseId = "humanUse";
   const segments = [
     { id: overviewId, label: t("Overview") },
     { id: ecologicalId, label: t("Ecological") },
+    { id: humanUseId, label: t("Human Use") },
   ];
   const [tab, setTab] = useState<string>(overviewId);
   return (
@@ -30,6 +33,9 @@ const BaseReport = () => {
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== ecologicalId}>
         <EcologicalPage />
+      </ReportPage>
+      <ReportPage hidden={!enableAllTabs && tab !== humanUseId}>
+        <HumanUsePage />
       </ReportPage>
     </>
   );

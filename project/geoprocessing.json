@@ -32,6 +32,7 @@
     "src/functions/offshoreHabitatWorker.ts",
     "src/functions/speciesProtection.ts",
     "src/functions/speciesProtectionWorker.ts",
-    "src/functions/habitatRestoration.ts"
+    "src/functions/habitatRestoration.ts",
+    "src/functions/ousSector.ts"
   ]
 }

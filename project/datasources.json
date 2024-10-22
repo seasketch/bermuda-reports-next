@@ -620,18 +620,144 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Analytics/SiteSuitability/mangrove_restoration_500mbuff.shp",
-    "layerName": "mangrove_restoration_500mbuff",
-    "geo_type": "vector",
     "datasourceId": "restoration_mangrove",
+    "geo_type": "vector",
     "formats": [
       "fgb"
     ],
+    "precalc": true,
+    "layerName": "mangrove_restoration_500mbuff",
     "classKeys": [],
     "created": "2024-10-22T18:36:29.023Z",
     "lastUpdated": "2024-10-22T18:36:29.023Z",
+    "src": "data/src/Analytics/SiteSuitability/mangrove_restoration_500mbuff.shp",
     "propertiesToKeep": [],
-    "explodeMulti": true,
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ous_aquaculture",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:00:32.260Z",
+    "lastUpdated": "2024-10-22T19:00:32.260Z",
+    "src": "data/src/Analytics/OUS Heatmaps/aquaculture_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_boating",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:00:48.798Z",
+    "lastUpdated": "2024-10-22T19:00:48.798Z",
+    "src": "data/src/Analytics/OUS Heatmaps/boating_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_passiveRecConservation",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:01:10.144Z",
+    "lastUpdated": "2024-10-22T19:01:10.144Z",
+    "src": "data/src/Analytics/OUS Heatmaps/passiverec_conservation_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_recFishing",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:01:25.804Z",
+    "lastUpdated": "2024-10-22T19:01:25.804Z",
+    "src": "data/src/Analytics/OUS Heatmaps/recreational_fishing_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_shipping",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:01:38.835Z",
+    "lastUpdated": "2024-10-22T19:01:38.835Z",
+    "src": "data/src/Analytics/OUS Heatmaps/shipping_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_swimSnorkelDive",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:01:55.147Z",
+    "lastUpdated": "2024-10-22T19:01:55.147Z",
+    "src": "data/src/Analytics/OUS Heatmaps/swim_snorkel_dive_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_tourism",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:02:10.139Z",
+    "lastUpdated": "2024-10-22T19:02:10.139Z",
+    "src": "data/src/Analytics/OUS Heatmaps/tourism_heatmap.tif"
+  },
+  {
+    "datasourceId": "ous_utilities",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T19:02:24.241Z",
+    "lastUpdated": "2024-10-22T19:02:24.241Z",
+    "src": "data/src/Analytics/OUS Heatmaps/utilities_heatmap.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/commercial_fishing.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "ous_comFishing",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-10-22T19:08:38.346Z",
+    "lastUpdated": "2024-10-22T19:08:38.346Z",
+    "noDataValue": 0,
+    "measurementType": "quantitative",
     "precalc": true
   }
 ]

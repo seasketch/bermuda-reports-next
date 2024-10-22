@@ -422,5 +422,65 @@
         "layerId": "FzmyFYLrG"
       }
     ]
+  },
+  {
+    "metricId": "ousSector",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_aquaculture",
+        "display": "Aquaculture",
+        "datasourceId": "ous_aquaculture",
+        "layerId": "3cX0CIbFA"
+      },
+      {
+        "classId": "ous_boating",
+        "display": "Boating",
+        "datasourceId": "ous_boating",
+        "layerId": "CVt0SpceQ"
+      },
+      {
+        "classId": "ous_comFishing",
+        "display": "Commercial Fishing",
+        "datasourceId": "ous_comFishing",
+        "layerId": "3pCWqmvCa"
+      },
+      {
+        "classId": "ous_passiveRecConservation",
+        "display": "Passive Recreation / Conservation",
+        "datasourceId": "ous_passiveRecConservation",
+        "layerId": "BsvKH7iEo"
+      },
+      {
+        "classId": "ous_recFishing",
+        "display": "Recreational Fishing",
+        "datasourceId": "ous_recFishing",
+        "layerId": "27SwnIBhJ"
+      },
+      {
+        "classId": "ous_shipping",
+        "display": "Shipping",
+        "datasourceId": "ous_shipping",
+        "layerId": "7JTTtAuxK"
+      },
+      {
+        "classId": "ous_swimSnorkelDive",
+        "display": "Swimming / Snorkeling / Diving",
+        "datasourceId": "ous_swimSnorkelDive",
+        "layerId": "81MezCRYP"
+      },
+      {
+        "classId": "ous_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_tourism",
+        "layerId": "fTmeGX1Iz"
+      },
+      {
+        "classId": "ous_utilities",
+        "display": "Utilities",
+        "datasourceId": "ous_utilities",
+        "layerId": "ZAM64q08K"
+      }
+    ]
   }
 ]
