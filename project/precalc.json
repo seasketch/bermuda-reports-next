@@ -258,6 +258,22 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "ous_baitInshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 84648154.589732
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_baitPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 703239306.292342
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -266,10 +282,58 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "ous_bottomAll-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9621445141.64205
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_bottomGeneral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9509761910.150429
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_bottomGeneralOther-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9488831555.484192
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_bottomGeneralSnapper-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1862237677.026717
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_bottomGeneralTurbot-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 762041646.398271
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_catchRelease-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 14941440.076435
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "ous_comFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 1.1048054e12
+    "value": 1104805400000
   },
   {
     "geographyId": "world",
@@ -286,6 +350,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 17104129257.316269
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_shark-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1527968150.979955
   },
   {
     "geographyId": "world",
@@ -314,10 +386,66 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "ous_trapping-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1064373506.331409
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_trappingGuineaChick-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 630982161.879177
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_trappingSpinyLobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1020096013.274451
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9943593075.489532
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_trollingPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9943515219.919554
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_trollingRockfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3116157753.029475
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 444297591.382031
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ous_verticalLining-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1866380861.000328
   },
   {
     "geographyId": "world",
@@ -714,10 +842,74 @@
   {
     "geographyId": "world",
     "metricId": "count",
+    "classId": "ous_baitInshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 57616
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_baitPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 606936
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 7322534
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_bottomAll-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2237528
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_bottomGeneral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2237528
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_bottomGeneralOther-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2237528
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_bottomGeneralSnapper-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 440165
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_bottomGeneralTurbot-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 287817
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_catchRelease-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 202607
   },
   {
     "geographyId": "world",
@@ -746,6 +938,14 @@
   {
     "geographyId": "world",
     "metricId": "count",
+    "classId": "ous_shark-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 752886
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -770,10 +970,66 @@
   {
     "geographyId": "world",
     "metricId": "count",
+    "classId": "ous_trapping-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 285426
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_trappingGuineaChick-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 239317
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_trappingSpinyLobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 278905
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2610720
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_trollingPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2610720
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_trollingRockfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1060644
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 51840
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ous_verticalLining-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 831600
   },
   {
     "geographyId": "world",
@@ -1002,10 +1258,74 @@
   {
     "geographyId": "world",
     "metricId": "sum",
+    "classId": "ous_baitInshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.382127
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_baitPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.006186
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 414611.218468
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_bottomAll-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.350615
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_bottomGeneral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.270946
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_bottomGeneralOther-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.228592
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_bottomGeneralSnapper-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.079295
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_bottomGeneralTurbot-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.010737
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_catchRelease-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.04065
   },
   {
     "geographyId": "world",
@@ -1034,6 +1354,14 @@
   {
     "geographyId": "world",
     "metricId": "sum",
+    "classId": "ous_shark-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.013041
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -1058,10 +1386,66 @@
   {
     "geographyId": "world",
     "metricId": "sum",
+    "classId": "ous_trapping-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.062925
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_trappingGuineaChick-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.015883
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_trappingSpinyLobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.047043
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.301352
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_trollingPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.265109
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_trollingRockfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.132769
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 15836.306921
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "ous_verticalLining-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 0.042955
   },
   {
     "geographyId": "world",
@@ -1362,10 +1746,74 @@
   {
     "geographyId": "world",
     "metricId": "valid",
+    "classId": "ous_baitInshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11725
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_baitPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 99370
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 3617263
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_bottomAll-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1349186
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_bottomGeneral-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1333525
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_bottomGeneralOther-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1330590
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_bottomGeneralSnapper-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 258554
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_bottomGeneralTurbot-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 106101
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_catchRelease-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 8264
   },
   {
     "geographyId": "world",
@@ -1394,6 +1842,14 @@
   {
     "geographyId": "world",
     "metricId": "valid",
+    "classId": "ous_shark-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 213368
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -1418,10 +1874,66 @@
   {
     "geographyId": "world",
     "metricId": "valid",
+    "classId": "ous_trapping-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 147810
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_trappingGuineaChick-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 88003
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_trappingSpinyLobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 141501
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1404903
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_trollingPelagic-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1404892
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_trollingRockfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 436255
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
     "value": 9837
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "ous_verticalLining-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 260954
   },
   {
     "geographyId": "world",

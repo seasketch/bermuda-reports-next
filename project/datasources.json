@@ -747,15 +747,239 @@
     "src": "data/src/Analytics/OUS Heatmaps/utilities_heatmap.tif"
   },
   {
-    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/commercial_fishing.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "ous_comFishing",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
     "created": "2024-10-22T19:08:38.346Z",
     "lastUpdated": "2024-10-22T19:08:38.346Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/commercial_fishing.tif"
+  },
+  {
+    "datasourceId": "ous_baitInshore",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:29:57.565Z",
+    "lastUpdated": "2024-10-22T21:29:57.565Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bait_inshore.tif"
+  },
+  {
+    "datasourceId": "ous_baitPelagic",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:30:16.380Z",
+    "lastUpdated": "2024-10-22T21:30:16.380Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bait_pelagic.tif"
+  },
+  {
+    "datasourceId": "ous_bottomAll",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:32:17.030Z",
+    "lastUpdated": "2024-10-22T21:32:17.030Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_all.tif"
+  },
+  {
+    "datasourceId": "ous_bottomGeneralOther",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:32:28.951Z",
+    "lastUpdated": "2024-10-22T21:32:28.951Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_other.tif"
+  },
+  {
+    "datasourceId": "ous_bottomGeneralSnapper",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:32:50.482Z",
+    "lastUpdated": "2024-10-22T21:32:50.482Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_snapper.tif"
+  },
+  {
+    "datasourceId": "ous_bottomGeneralTurbot",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:34:45.922Z",
+    "lastUpdated": "2024-10-22T21:34:45.922Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_turbot.tif"
+  },
+  {
+    "datasourceId": "ous_bottomGeneral",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:35:04.966Z",
+    "lastUpdated": "2024-10-22T21:35:04.966Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general.tif"
+  },
+  {
+    "datasourceId": "ous_catchRelease",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:35:21.490Z",
+    "lastUpdated": "2024-10-22T21:35:21.490Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/catch_release.tif"
+  },
+  {
+    "datasourceId": "ous_shark",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:35:43.162Z",
+    "lastUpdated": "2024-10-22T21:35:43.162Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/shark.tif"
+  },
+  {
+    "datasourceId": "ous_trappingGuineaChick",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:36:05.487Z",
+    "lastUpdated": "2024-10-22T21:36:05.487Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping_guinea_chick.tif"
+  },
+  {
+    "datasourceId": "ous_trappingSpinyLobster",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:36:27.365Z",
+    "lastUpdated": "2024-10-22T21:36:27.365Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping_spiny_lobster.tif"
+  },
+  {
+    "datasourceId": "ous_trapping",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:36:40.372Z",
+    "lastUpdated": "2024-10-22T21:36:40.372Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping.tif"
+  },
+  {
+    "datasourceId": "ous_trollingPelagic",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:36:57.713Z",
+    "lastUpdated": "2024-10-22T21:36:57.713Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling_pelagic.tif"
+  },
+  {
+    "datasourceId": "ous_trollingRockfish",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:37:11.008Z",
+    "lastUpdated": "2024-10-22T21:37:11.008Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling_rockfish.tif"
+  },
+  {
+    "datasourceId": "ous_trolling",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2024-10-22T21:37:25.416Z",
+    "lastUpdated": "2024-10-22T21:37:25.416Z",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/vertical_lining.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "ous_verticalLining",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-10-22T21:37:46.034Z",
+    "lastUpdated": "2024-10-22T21:37:46.034Z",
     "noDataValue": 0,
     "measurementType": "quantitative",
     "precalc": true

@@ -482,5 +482,107 @@
         "layerId": "ZAM64q08K"
       }
     ]
+  },
+  {
+    "metricId": "ousGear",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "datasourceId": "ous_baitInshore",
+        "classId": "ous_baitInshore",
+        "display": "Bait (Inshore)",
+        "layerId": "645eb1237243d7250999e9e4"
+      },
+      {
+        "datasourceId": "ous_baitPelagic",
+        "classId": "ous_baitPelagic",
+        "display": "Bait (Pelagic)",
+        "layerId": "645eb1427243d7250999eabf"
+      },
+      {
+        "datasourceId": "ous_bottomAll",
+        "classId": "ous_bottomAll",
+        "display": "Bottom (All)",
+        "layerId": "645eae917243d7250999e3fb"
+      },
+      {
+        "datasourceId": "ous_bottomGeneralOther",
+        "classId": "ous_bottomGeneralOther",
+        "display": "Bottom General (Other)",
+        "layerId": "645eaf487243d7250999e5a6"
+      },
+      {
+        "datasourceId": "ous_bottomGeneralSnapper",
+        "classId": "ous_bottomGeneralSnapper",
+        "display": "Bottom General (Snapper)",
+        "layerId": "645eaf917243d7250999e67c"
+      },
+      {
+        "datasourceId": "ous_bottomGeneralTurbot",
+        "classId": "ous_bottomGeneralTurbot",
+        "display": "Bottom General (Turbot)",
+        "layerId": "645eb02b7243d7250999e756"
+      },
+      {
+        "datasourceId": "ous_bottomGeneral",
+        "classId": "ous_bottomGeneral",
+        "display": "Bottom General",
+        "layerId": "645eaec07243d7250999e4cf"
+      },
+      {
+        "datasourceId": "ous_catchRelease",
+        "classId": "ous_catchRelease",
+        "display": "Catch Release",
+        "layerId": "645eb06f7243d7250999e830"
+      },
+      {
+        "datasourceId": "ous_shark",
+        "classId": "ous_shark",
+        "display": "Shark",
+        "layerId": "645eb25f7243d7250999ee39"
+      },
+      {
+        "datasourceId": "ous_trappingGuineaChick",
+        "classId": "ous_trappingGuineaChick",
+        "display": "Trapping (Guinea Chick)",
+        "layerId": "645eae307243d7250999e326"
+      },
+      {
+        "datasourceId": "ous_trappingSpinyLobster",
+        "classId": "ous_trappingSpinyLobster",
+        "display": "Trapping (Spiny Lobster)",
+        "layerId": "645eade47243d7250999e254"
+      },
+      {
+        "datasourceId": "ous_trapping",
+        "classId": "ous_trapping",
+        "display": "Trapping",
+        "layerId": "645e86ec7243d7250999c742"
+      },
+      {
+        "datasourceId": "ous_trollingPelagic",
+        "classId": "ous_trollingPelagic",
+        "display": "Trolling (Pelagic)",
+        "layerId": "645eb1dc7243d7250999ec7c"
+      },
+      {
+        "datasourceId": "ous_trollingRockfish",
+        "classId": "ous_trollingRockfish",
+        "display": "Trolling (Rockfish)",
+        "layerId": "645eb2077243d7250999ed5a"
+      },
+      {
+        "datasourceId": "ous_trolling",
+        "classId": "ous_trolling",
+        "display": "Trolling",
+        "layerId": "645eb1b97243d7250999eb9f"
+      },
+      {
+        "datasourceId": "ous_verticalLining",
+        "classId": "ous_verticalLining",
+        "display": "Vertical Lining",
+        "layerId": "645eb09c7243d7250999e909"
+      }
+    ]
   }
 ]

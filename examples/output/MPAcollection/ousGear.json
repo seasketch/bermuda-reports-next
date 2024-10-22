@@ -1,0 +1,688 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitInshore",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.001878,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitInshore",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.001878,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitInshore",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitPelagic",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitPelagic",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_baitPelagic",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomAll",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.001262,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomAll",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.001262,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomAll",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneral",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000028,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneral",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000028,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneral",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralOther",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000005,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralOther",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000005,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralOther",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralSnapper",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000024,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralSnapper",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000024,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralSnapper",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralTurbot",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralTurbot",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_bottomGeneralTurbot",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_catchRelease",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000632,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_catchRelease",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000632,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_catchRelease",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_shark",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 2.348168539612061e-7,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_shark",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 2.348168539612061e-7,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_shark",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trapping",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trapping",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trapping",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingGuineaChick",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingGuineaChick",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingGuineaChick",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingSpinyLobster",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingSpinyLobster",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trappingSpinyLobster",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trolling",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000016,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trolling",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000014,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trolling",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0.000002,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingPelagic",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000005,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingPelagic",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000003,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingPelagic",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0.000002,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingRockfish",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0.000014,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingRockfish",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0.000014,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_trollingRockfish",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_verticalLining",
+      "sketchId": "47698",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPAcollection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_verticalLining",
+      "sketchId": "47699",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-test"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ousGear",
+      "classId": "ous_verticalLining",
+      "sketchId": "47700",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 47698,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 47700,
+        "bbox": [
+          -64.635544,
+          32.219616,
+          -64.61518,
+          32.24356
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa2",
+          "3182": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "id": "47700",
+          "name": "mpa2",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:13:32.781633+00:00",
+          "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+          "ACTIVITIES": [
+            "RESTORE_CON",
+            "RESTORE_OTH"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESTORE_CON",
+                "RESTORE_OTH"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Restoration/enhancement for conservation",
+                "Restoration/enhancement for other reasons"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 47699,
+        "bbox": [
+          -64.80406,
+          32.30502,
+          -64.78284,
+          32.318546
+        ],
+        "type": "Feature",
+        "properties": {
+          "3180": "mpa-test",
+          "3182": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "id": "47699",
+          "name": "mpa-test",
+          "postId": null,
+          "userId": "531",
+          "userSlug": "Abby",
+          "createdAt": "2024-10-18T17:12:56.783691+00:00",
+          "updatedAt": "2024-10-18T17:13:03.853916+00:00",
+          "ACTIVITIES": [
+            "RESEARCH_NE",
+            "RESTORE_CON",
+            "RECREATE_NE",
+            "UNTREATED_WATER"
+          ],
+          "collectionId": "47698",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "251",
+          "userAttributes": [
+            {
+              "label": "Allowed Activities",
+              "value": [
+                "RESEARCH_NE",
+                "RESTORE_CON",
+                "RECREATE_NE",
+                "UNTREATED_WATER"
+              ],
+              "exportId": "ACTIVITIES",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Research: non-extractive",
+                "Restoration/enhancement for conservation",
+                "Non-extractive recreation",
+                "Untreated water discharge"
+              ],
+              "formElementId": 3182,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3181": "MPAcollection",
+      "id": "47698",
+      "name": "MPAcollection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-10-18T17:12:52.104779+00:00",
+      "updatedAt": "2024-10-18T18:02:16.46049+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "252",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 3183,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}
