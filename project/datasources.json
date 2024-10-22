@@ -576,17 +576,62 @@
     "src": "data/src/Analytics/Prioritization Inputs/fish_recruit_density_2023.tif"
   },
   {
-    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Seagrass Index Value1.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "species_seagrassIndexValue",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
     "created": "2024-10-21T22:31:33.199Z",
     "lastUpdated": "2024-10-21T22:31:33.199Z",
-    "noDataValue": -3.4e+38,
-    "measurementType": "quantitative",
+    "src": "data/src/Analytics/Prioritization Inputs/wgs84_Seagrass Index Value1.tif"
+  },
+  {
+    "datasourceId": "restoration_coral",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "coral_restoration_areas",
+    "classKeys": [],
+    "created": "2024-10-22T18:35:30.489Z",
+    "lastUpdated": "2024-10-22T18:35:30.489Z",
+    "src": "data/src/Analytics/SiteSuitability/coral_restoration_areas.shp",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "restoration_seagrass",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "seagrass_restoration_500mbuff",
+    "classKeys": [],
+    "created": "2024-10-22T18:36:03.191Z",
+    "lastUpdated": "2024-10-22T18:36:03.191Z",
+    "src": "data/src/Analytics/SiteSuitability/seagrass_restoration_500mbuff.shp",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Analytics/SiteSuitability/mangrove_restoration_500mbuff.shp",
+    "layerName": "mangrove_restoration_500mbuff",
+    "geo_type": "vector",
+    "datasourceId": "restoration_mangrove",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2024-10-22T18:36:29.023Z",
+    "lastUpdated": "2024-10-22T18:36:29.023Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
     "precalc": true
   }
 ]

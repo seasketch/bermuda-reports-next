@@ -398,5 +398,29 @@
         "layerId": "vHpXWzjse"
       }
     ]
+  },
+  {
+    "metricId": "habitatRestoration",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "restoration_coral",
+        "display": "Coral",
+        "datasourceId": "restoration_coral",
+        "layerId": "y_FsO7NiD"
+      },
+      {
+        "classId": "restoration_seagrass",
+        "display": "Seagrass",
+        "datasourceId": "restoration_seagrass",
+        "layerId": "evVoj3kvi"
+      },
+      {
+        "classId": "restoration_mangrove",
+        "display": "Mangrove/Saltmarsh",
+        "datasourceId": "restoration_mangrove",
+        "layerId": "FzmyFYLrG"
+      }
+    ]
   }
 ]

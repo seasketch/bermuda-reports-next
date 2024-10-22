@@ -258,6 +258,30 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "restoration_coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4525496.517350711
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "restoration_mangrove-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 21733943.579810772
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "restoration_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 31902313.555651136
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "species_bruvsFishDiversity-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -614,6 +638,30 @@
     "sketchId": null,
     "groupId": null,
     "value": 645
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "restoration_coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "restoration_mangrove-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "restoration_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46
   },
   {
     "geographyId": "world",
