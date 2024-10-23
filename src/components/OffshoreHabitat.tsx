@@ -41,7 +41,7 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
   const metricGroup = project.getMetricGroup("offshoreHabitat", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
-    "area",
+    "valid",
     curGeography.geographyId,
   );
 
@@ -97,26 +97,7 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
                 {
                   columnLabel: " ",
                   type: "class",
-                  width: 30,
-                },
-                {
-                  columnLabel: withinLabel,
-                  type: "metricValue",
-                  metricId: metricGroup.metricId,
-                  valueFormatter: (val) =>
-                    Number.format(
-                      Math.round(
-                        squareMeterToMile(
-                          typeof val === "string" ? parseInt(val) : val,
-                        ),
-                      ),
-                    ),
-                  valueLabel: unitsLabel,
-                  colStyle: { textAlign: "center" },
-                  chartOptions: {
-                    showTitle: true,
-                  },
-                  width: 20,
+                  width: 50,
                 },
                 {
                   columnLabel: percWithinLabel,

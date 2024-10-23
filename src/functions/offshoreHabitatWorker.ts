@@ -58,7 +58,7 @@ export async function offshoreHabitatWorker(
   const overlapResult = await rasterMetrics(raster, {
     metricId: metricGroup.metricId,
     feature: sketch,
-    ...(ds.measurementType === "quantitative" && { stats: ["area"] }),
+    ...(ds.measurementType === "quantitative" && { stats: ["valid"] }),
     ...(ds.measurementType === "categorical" && {
       categorical: true,
       categoryMetricValues: [curClass.classId],
