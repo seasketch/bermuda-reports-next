@@ -6,7 +6,7 @@
       "classId": "1",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 38,
+      "value": 40,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "1",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 38,
+      "value": 40,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -176,7 +176,7 @@
       "classId": "2",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 474,
+      "value": 440,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -188,7 +188,7 @@
       "classId": "2",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 474,
+      "value": 440,
       "extra": {
         "sketchName": "mpa-test"
       }

@@ -102,24 +102,7 @@ export const NearshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
                 {
                   columnLabel: t("Habitat"),
                   type: "class",
-                  width: 40,
-                },
-                {
-                  columnLabel: withinLabel,
-                  type: "metricValue",
-                  metricId: metricGroup.metricId,
-                  valueFormatter: (val) =>
-                    roundDecimal(
-                      squareMeterToMile(
-                        Number(val) * 69.756563098811327 * 69.756563098811327,
-                      ),
-                    ),
-                  valueLabel: unitsLabel,
-                  chartOptions: {
-                    showTitle: true,
-                  },
-                  colStyle: { textAlign: "center" },
-                  width: 20,
+                  width: 50,
                 },
                 {
                   columnLabel: percWithinLabel,
@@ -129,7 +112,7 @@ export const NearshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
                   chartOptions: {
                     showTitle: true,
                   },
-                  width: 40,
+                  width: 50,
                 },
               ]}
             />
