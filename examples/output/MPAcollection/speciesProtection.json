@@ -40,7 +40,7 @@
       "classId": "species_commercialFishDensityPlatform",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 74.266236,
+      "value": 72.214652,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -52,7 +52,7 @@
       "classId": "species_commercialFishDensityPlatform",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 74.266236,
+      "value": 72.214652,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -74,7 +74,7 @@
       "classId": "species_commercialFishRecruitDensity",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 20.46568,
+      "value": 20.047082,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -86,7 +86,7 @@
       "classId": "species_commercialFishRecruitDensity",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 20.46568,
+      "value": 20.047082,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -108,7 +108,7 @@
       "classId": "species_commericalFishingDiversityPlatform",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 2621.139425,
+      "value": 2542.68942,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -120,7 +120,7 @@
       "classId": "species_commericalFishingDiversityPlatform",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 2621.139425,
+      "value": 2542.68942,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -142,7 +142,7 @@
       "classId": "species_coralCover",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 306.490372,
+      "value": 306.990146,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "species_coralCover",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 306.490372,
+      "value": 306.990146,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -176,7 +176,7 @@
       "classId": "species_coralDiversityRichness",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 336.812286,
+      "value": 335.583342,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -188,7 +188,7 @@
       "classId": "species_coralDiversityRichness",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 336.812286,
+      "value": 335.583342,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -210,7 +210,7 @@
       "classId": "species_coralRecruitDensity",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 176.633043,
+      "value": 178.871112,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -222,7 +222,7 @@
       "classId": "species_coralRecruitDensity",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 176.633043,
+      "value": 178.871112,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -244,7 +244,7 @@
       "classId": "species_fishDensity",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 1933.322419,
+      "value": 1884.419501,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -256,7 +256,7 @@
       "classId": "species_fishDensity",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 1933.322419,
+      "value": 1884.419501,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -278,7 +278,7 @@
       "classId": "species_fishDiversityBREAM",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 1559.638067,
+      "value": 1514.881855,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -290,7 +290,7 @@
       "classId": "species_fishDiversityBREAM",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 1559.638067,
+      "value": 1514.881855,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -346,7 +346,7 @@
       "classId": "species_fishRecruitDensity",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 85.602479,
+      "value": 85.546878,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -358,7 +358,7 @@
       "classId": "species_fishRecruitDensity",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 85.602479,
+      "value": 85.546878,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -380,7 +380,7 @@
       "classId": "species_rugosity",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 119.09748,
+      "value": 122.488951,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -392,7 +392,7 @@
       "classId": "species_rugosity",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 119.09748,
+      "value": 122.488951,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -414,7 +414,7 @@
       "classId": "species_seagrassIndexValue",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 34.704754,
+      "value": 35.878839,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -426,7 +426,7 @@
       "classId": "species_seagrassIndexValue",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 34.704754,
+      "value": 35.878839,
       "extra": {
         "sketchName": "mpa-test"
       }
