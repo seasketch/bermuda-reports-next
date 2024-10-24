@@ -40,7 +40,7 @@
       "classId": "ous_boating",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 3912.779441,
+      "value": 4261.93164,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -52,7 +52,7 @@
       "classId": "ous_boating",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 3905.141949,
+      "value": 4254.036179,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -63,7 +63,7 @@
       "classId": "ous_boating",
       "sketchId": "47700",
       "groupId": "band-0",
-      "value": 7.637492,
+      "value": 7.895462,
       "extra": {
         "sketchName": "mpa2"
       }
@@ -74,7 +74,7 @@
       "classId": "ous_comFishing",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 0.003828,
+      "value": 0.005416,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -86,7 +86,7 @@
       "classId": "ous_comFishing",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 0.003799,
+      "value": 0.005389,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -97,7 +97,7 @@
       "classId": "ous_comFishing",
       "sketchId": "47700",
       "groupId": "band-0",
-      "value": 0.000029,
+      "value": 0.000028,
       "extra": {
         "sketchName": "mpa2"
       }
@@ -108,7 +108,7 @@
       "classId": "ous_passiveRecConservation",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 2720.018699,
+      "value": 2716.438193,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -120,7 +120,7 @@
       "classId": "ous_passiveRecConservation",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 2718.404332,
+      "value": 2714.740324,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -131,7 +131,7 @@
       "classId": "ous_passiveRecConservation",
       "sketchId": "47700",
       "groupId": "band-0",
-      "value": 1.614367,
+      "value": 1.697869,
       "extra": {
         "sketchName": "mpa2"
       }
@@ -142,7 +142,7 @@
       "classId": "ous_recFishing",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 2078.116343,
+      "value": 2117.543971,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "ous_recFishing",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 2063.633812,
+      "value": 2103.823678,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -165,7 +165,7 @@
       "classId": "ous_recFishing",
       "sketchId": "47700",
       "groupId": "band-0",
-      "value": 14.482531,
+      "value": 13.720293,
       "extra": {
         "sketchName": "mpa2"
       }
@@ -176,7 +176,7 @@
       "classId": "ous_shipping",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 61.070225,
+      "value": 63.286089,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -188,7 +188,7 @@
       "classId": "ous_shipping",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 61.070225,
+      "value": 63.286089,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -210,7 +210,7 @@
       "classId": "ous_swimSnorkelDive",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 6280.454153,
+      "value": 7889.617557,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -222,7 +222,7 @@
       "classId": "ous_swimSnorkelDive",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 6263.100827,
+      "value": 7871.46828,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -233,7 +233,7 @@
       "classId": "ous_swimSnorkelDive",
       "sketchId": "47700",
       "groupId": "band-0",
-      "value": 17.353326,
+      "value": 18.149278,
       "extra": {
         "sketchName": "mpa2"
       }
@@ -244,7 +244,7 @@
       "classId": "ous_tourism",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 136.15013,
+      "value": 668.796885,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -256,7 +256,7 @@
       "classId": "ous_tourism",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 136.15013,
+      "value": 668.796885,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -278,7 +278,7 @@
       "classId": "ous_utilities",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 43.628161,
+      "value": 29.572924,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -290,7 +290,7 @@
       "classId": "ous_utilities",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 43.628161,
+      "value": 29.572924,
       "extra": {
         "sketchName": "mpa-test"
       }

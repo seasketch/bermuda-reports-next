@@ -253,7 +253,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 180140549.687603
+    "value": 0.017358
   },
   {
     "geographyId": "world",
@@ -277,7 +277,7 @@
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 155828768430.8242
+    "value": 14.952371
   },
   {
     "geographyId": "world",
@@ -333,7 +333,7 @@
     "classId": "ous_comFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 1104805400000
+    "value": 0
   },
   {
     "geographyId": "world",
@@ -341,7 +341,7 @@
     "classId": "ous_passiveRecConservation-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4137309523.48906
+    "value": 0.396294
   },
   {
     "geographyId": "world",
@@ -349,7 +349,7 @@
     "classId": "ous_recFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 17104129257.316269
+    "value": 1.632094
   },
   {
     "geographyId": "world",
@@ -365,7 +365,7 @@
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 244808078.181936
+    "value": 0.023365
   },
   {
     "geographyId": "world",
@@ -373,7 +373,7 @@
     "classId": "ous_swimSnorkelDive-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4310169896.237371
+    "value": 0.412927
   },
   {
     "geographyId": "world",
@@ -381,7 +381,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 590005027.331973
+    "value": 0.056446
   },
   {
     "geographyId": "world",
@@ -437,7 +437,7 @@
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 444297591.382031
+    "value": 0.042531
   },
   {
     "geographyId": "world",
@@ -837,7 +837,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 27125
+    "value": 27390
   },
   {
     "geographyId": "world",
@@ -861,7 +861,7 @@
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 7322534
+    "value": 7724976
   },
   {
     "geographyId": "world",
@@ -917,7 +917,7 @@
     "classId": "ous_comFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 190462696
+    "value": 181200930
   },
   {
     "geographyId": "world",
@@ -925,7 +925,7 @@
     "classId": "ous_passiveRecConservation-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 215832
+    "value": 221122
   },
   {
     "geographyId": "world",
@@ -933,7 +933,7 @@
     "classId": "ous_recFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 705642
+    "value": 680817
   },
   {
     "geographyId": "world",
@@ -949,7 +949,7 @@
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 14514
+    "value": 14430
   },
   {
     "geographyId": "world",
@@ -957,7 +957,7 @@
     "classId": "ous_swimSnorkelDive-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 131573
+    "value": 129819
   },
   {
     "geographyId": "world",
@@ -965,7 +965,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 20541
+    "value": 19836
   },
   {
     "geographyId": "world",
@@ -1021,7 +1021,7 @@
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 51840
+    "value": 49560
   },
   {
     "geographyId": "world",
@@ -1253,7 +1253,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 15456.181481
+    "value": 14972.600297
   },
   {
     "geographyId": "world",
@@ -1277,7 +1277,7 @@
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 414611.218468
+    "value": 430346.013556
   },
   {
     "geographyId": "world",
@@ -1333,7 +1333,7 @@
     "classId": "ous_comFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 1.225914404722789
+    "value": 1.158978972793952
   },
   {
     "geographyId": "world",
@@ -1341,7 +1341,7 @@
     "classId": "ous_passiveRecConservation-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 224266.926101
+    "value": 230850.841094
   },
   {
     "geographyId": "world",
@@ -1349,7 +1349,7 @@
     "classId": "ous_recFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 234638.996693
+    "value": 231050.758645
   },
   {
     "geographyId": "world",
@@ -1365,7 +1365,7 @@
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 15863.00473
+    "value": 14768.226011
   },
   {
     "geographyId": "world",
@@ -1373,7 +1373,7 @@
     "classId": "ous_swimSnorkelDive-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 622574.890735
+    "value": 613759.638106
   },
   {
     "geographyId": "world",
@@ -1381,7 +1381,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 20957.751457
+    "value": 20206.746555
   },
   {
     "geographyId": "world",
@@ -1437,7 +1437,7 @@
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 15836.306921
+    "value": 15146.934098
   },
   {
     "geographyId": "world",
@@ -1741,7 +1741,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4088
+    "value": 4140
   },
   {
     "geographyId": "world",
@@ -1765,7 +1765,7 @@
     "classId": "ous_boating-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 3617263
+    "value": 3819089
   },
   {
     "geographyId": "world",
@@ -1821,7 +1821,7 @@
     "classId": "ous_comFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 152256202
+    "value": 144073215
   },
   {
     "geographyId": "world",
@@ -1829,7 +1829,7 @@
     "classId": "ous_passiveRecConservation-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 94516
+    "value": 96663
   },
   {
     "geographyId": "world",
@@ -1837,7 +1837,7 @@
     "classId": "ous_recFishing-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 377611
+    "value": 364530
   },
   {
     "geographyId": "world",
@@ -1853,7 +1853,7 @@
     "classId": "ous_shipping-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 5496
+    "value": 5413
   },
   {
     "geographyId": "world",
@@ -1861,7 +1861,7 @@
     "classId": "ous_swimSnorkelDive-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 96470
+    "value": 95085
   },
   {
     "geographyId": "world",
@@ -1869,7 +1869,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 13061
+    "value": 12534
   },
   {
     "geographyId": "world",
@@ -1925,7 +1925,7 @@
     "classId": "ous_utilities-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 9837
+    "value": 9408
   },
   {
     "geographyId": "world",

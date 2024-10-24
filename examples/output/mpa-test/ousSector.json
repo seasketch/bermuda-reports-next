@@ -17,7 +17,7 @@
       "classId": "ous_boating",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 3905.141949,
+      "value": 4254.036179,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -28,7 +28,7 @@
       "classId": "ous_comFishing",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 0.003799,
+      "value": 0.005389,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -39,7 +39,7 @@
       "classId": "ous_passiveRecConservation",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 2718.404332,
+      "value": 2714.740324,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -50,7 +50,7 @@
       "classId": "ous_recFishing",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 2063.633812,
+      "value": 2103.823678,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -61,7 +61,7 @@
       "classId": "ous_shipping",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 61.070225,
+      "value": 63.286089,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -72,7 +72,7 @@
       "classId": "ous_swimSnorkelDive",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 6263.100827,
+      "value": 7871.46828,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -83,7 +83,7 @@
       "classId": "ous_tourism",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 136.15013,
+      "value": 668.796885,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -94,7 +94,7 @@
       "classId": "ous_utilities",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 43.628161,
+      "value": 29.572924,
       "extra": {
         "sketchName": "mpa-test"
       }
