@@ -95,9 +95,9 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
               objective={objectives}
               columnConfig={[
                 {
-                  columnLabel: " ",
+                  columnLabel: t("Habitat"),
                   type: "class",
-                  width: 50,
+                  width: 30,
                 },
                 {
                   columnLabel: percWithinLabel,
@@ -116,7 +116,7 @@ export const OffshoreHabitat: React.FunctionComponent<GeogProp> = (props) => {
                     return (value: number) =>
                       `${valueFormatter(value / 100, "percent0dig")}`;
                   },
-                  width: 40,
+                  width: 60,
                 },
                 {
                   columnLabel: mapLabel,

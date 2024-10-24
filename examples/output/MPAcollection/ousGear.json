@@ -6,7 +6,7 @@
       "classId": "ous_baitInshore",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 0.001878,
+      "value": 0.003369,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "ous_baitInshore",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 0.001878,
+      "value": 0.003369,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -74,7 +74,7 @@
       "classId": "ous_bottomAll",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 0.001262,
+      "value": 0.001537,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -86,7 +86,7 @@
       "classId": "ous_bottomAll",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 0.001262,
+      "value": 0.001537,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -108,7 +108,7 @@
       "classId": "ous_bottomGeneral",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 0.000028,
+      "value": 0.00003,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -120,7 +120,7 @@
       "classId": "ous_bottomGeneral",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 0.000028,
+      "value": 0.00003,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -244,7 +244,7 @@
       "classId": "ous_catchRelease",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 0.000632,
+      "value": 0,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -256,7 +256,7 @@
       "classId": "ous_catchRelease",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 0.000632,
+      "value": 0,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -278,7 +278,7 @@
       "classId": "ous_shark",
       "sketchId": "47698",
       "groupId": "band-0",
-      "value": 2.348168539612061e-7,
+      "value": 2.6960453602953294e-7,
       "extra": {
         "sketchName": "MPAcollection",
         "isCollection": true
@@ -290,7 +290,7 @@
       "classId": "ous_shark",
       "sketchId": "47699",
       "groupId": "band-0",
-      "value": 2.348168539612061e-7,
+      "value": 2.6960453602953294e-7,
       "extra": {
         "sketchName": "mpa-test"
       }

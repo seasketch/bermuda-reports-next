@@ -6,7 +6,7 @@
       "classId": "ous_baitInshore",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 0.001878,
+      "value": 0.003369,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -28,7 +28,7 @@
       "classId": "ous_bottomAll",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 0.001262,
+      "value": 0.001537,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -39,7 +39,7 @@
       "classId": "ous_bottomGeneral",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 0.000028,
+      "value": 0.00003,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -83,7 +83,7 @@
       "classId": "ous_catchRelease",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 0.000632,
+      "value": 0,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -94,7 +94,7 @@
       "classId": "ous_shark",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 2.348168539612061e-7,
+      "value": 2.6960453602953294e-7,
       "extra": {
         "sketchName": "mpa-test"
       }

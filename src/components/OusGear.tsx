@@ -93,9 +93,9 @@ export const OusGear: React.FunctionComponent<GeogProp> = (props) => {
               objective={objectives}
               columnConfig={[
                 {
-                  columnLabel: " ",
+                  columnLabel: t("Gear Type"),
                   type: "class",
-                  width: 50,
+                  width: 45,
                 },
                 {
                   columnLabel: percWithinLabel,
@@ -110,7 +110,7 @@ export const OusGear: React.FunctionComponent<GeogProp> = (props) => {
                 {
                   columnLabel: mapLabel,
                   type: "layerToggle",
-                  width: 10,
+                  width: 15,
                 },
               ]}
             />
