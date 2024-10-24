@@ -18,7 +18,7 @@ import project from "../../project/projectClient.js";
 // await $`rm ${warpDst}`;
 // console.log(`Finished reimporting ${datasource.datasourceId}`);
 
-project.getMetricGroup("ousGear").classes.forEach(async (curClass) => {
+project.getMetricGroup("renewableEnergy").classes.forEach(async (curClass) => {
   const datasource = datasources.find(
     (d) => d.datasourceId === curClass.datasourceId!,
   );

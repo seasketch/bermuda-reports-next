@@ -6,7 +6,7 @@
       "classId": "float_solar",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 2878.466614,
+      "value": 2656.060994,
       "extra": {
         "sketchName": "mpa-test"
       }
@@ -28,7 +28,7 @@
       "classId": "wind_fixed",
       "sketchId": "30576",
       "groupId": "band-0",
-      "value": 454.638902,
+      "value": 402.530621,
       "extra": {
         "sketchName": "mpa-test"
       }

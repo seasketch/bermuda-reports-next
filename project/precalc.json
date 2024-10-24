@@ -133,7 +133,7 @@
     "classId": "float_solar-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 602474442.465831
+    "value": 0.057738
   },
   {
     "geographyId": "world",
@@ -605,7 +605,7 @@
     "classId": "wave-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 210153140.963591
+    "value": 0.020153
   },
   {
     "geographyId": "world",
@@ -613,7 +613,7 @@
     "classId": "wind_fixed-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 448872286.793854
+    "value": 0.043025
   },
   {
     "geographyId": "world",
@@ -621,7 +621,7 @@
     "classId": "wind_float-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 90305002.726665
+    "value": 0.008648
   },
   {
     "geographyId": "world",
@@ -757,7 +757,7 @@
     "classId": "float_solar-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4328484
+    "value": 3899891
   },
   {
     "geographyId": "world",
@@ -1229,7 +1229,7 @@
     "classId": "wave-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4328484
+    "value": 3899891
   },
   {
     "geographyId": "world",
@@ -1237,7 +1237,7 @@
     "classId": "wind_fixed-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4328484
+    "value": 3899891
   },
   {
     "geographyId": "world",
@@ -1245,7 +1245,7 @@
     "classId": "wind_float-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4328484
+    "value": 3899891
   },
   {
     "geographyId": "world",
@@ -1253,7 +1253,7 @@
     "classId": "float_solar-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 5709765.261128
+    "value": 5143254.350547
   },
   {
     "geographyId": "world",
@@ -1645,7 +1645,7 @@
     "classId": "wave-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 1877486.355927
+    "value": 1692259.602808
   },
   {
     "geographyId": "world",
@@ -1653,7 +1653,7 @@
     "classId": "wind_fixed-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 4138952.849847
+    "value": 3728809.845475
   },
   {
     "geographyId": "world",
@@ -1661,7 +1661,7 @@
     "classId": "wind_float-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 919801.118146
+    "value": 827941.928586
   },
   {
     "geographyId": "world",
@@ -1669,7 +1669,7 @@
     "classId": "float_solar-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 1169643
+    "value": 1053683
   },
   {
     "geographyId": "world",
@@ -2165,7 +2165,7 @@
     "classId": "wave-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 407991
+    "value": 367784
   },
   {
     "geographyId": "world",
@@ -2173,7 +2173,7 @@
     "classId": "wind_fixed-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 871440
+    "value": 785190
   },
   {
     "geographyId": "world",
@@ -2181,6 +2181,6 @@
     "classId": "wind_float-total",
     "sketchId": null,
     "groupId": "band-0",
-    "value": 175318
+    "value": 157817
   }
 ]
