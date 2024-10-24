@@ -36,6 +36,7 @@
     "src/functions/ousSector.ts",
     "src/functions/ousSectorWorker.ts",
     "src/functions/ousGear.ts",
-    "src/functions/ousGearWorker.ts"
+    "src/functions/ousGearWorker.ts",
+    "src/functions/platformEdge.ts"
   ]
 }

@@ -971,17 +971,32 @@
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling.tif"
   },
   {
-    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/vertical_lining.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "ous_verticalLining",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
     "created": "2024-10-22T21:37:46.034Z",
     "lastUpdated": "2024-10-22T21:37:46.034Z",
-    "noDataValue": 0,
-    "measurementType": "quantitative",
+    "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/vertical_lining.tif"
+  },
+  {
+    "src": "data/src/Analytics/Pelagic_Fishing_Zone_Dissolved.shp",
+    "layerName": "Pelagic_Fishing_Zone_Dissolved",
+    "geo_type": "vector",
+    "datasourceId": "pelagicFishingZone",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2024-10-24T18:24:52.184Z",
+    "lastUpdated": "2024-10-24T18:24:52.184Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
     "precalc": true
   }
 ]

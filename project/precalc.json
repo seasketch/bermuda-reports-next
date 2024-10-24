@@ -450,6 +450,14 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "pelagicFishingZone-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1730357403.6870356
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "priorityModel-total",
     "sketchId": null,
     "groupId": null,
@@ -1030,6 +1038,14 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 819056
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "pelagicFishingZone-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
   },
   {
     "geographyId": "world",

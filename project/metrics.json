@@ -584,5 +584,17 @@
         "layerId": "645eb09c7243d7250999e909"
       }
     ]
+  },
+  {
+    "metricId": "platformEdge",
+    "type": "areaOverlap",
+    "datasourceId": "pelagicFishingZone",
+    "layerId": "ShrIlkvmU",
+    "classes": [
+      {
+        "classId": "pelagicFishingZone",
+        "display": "Platform Edge"
+      }
+    ]
   }
 ]
