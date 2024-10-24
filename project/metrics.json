@@ -596,5 +596,17 @@
         "display": "Platform Edge"
       }
     ]
+  },
+  {
+    "metricId": "shipwrecks",
+    "type": "valueOverlap",
+    "datasourceId": "shipwrecks",
+    "layerId": "9T7J2_Yz8",
+    "classes": [
+      {
+        "classId": "shipwrecks",
+        "display": "Shipwrecks"
+      }
+    ]
   }
 ]

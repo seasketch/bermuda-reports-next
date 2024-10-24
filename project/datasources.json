@@ -985,18 +985,38 @@
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/vertical_lining.tif"
   },
   {
-    "src": "data/src/Analytics/Pelagic_Fishing_Zone_Dissolved.shp",
-    "layerName": "Pelagic_Fishing_Zone_Dissolved",
-    "geo_type": "vector",
     "datasourceId": "pelagicFishingZone",
+    "geo_type": "vector",
     "formats": [
       "fgb"
     ],
+    "precalc": true,
+    "layerName": "Pelagic_Fishing_Zone_Dissolved",
     "classKeys": [],
     "created": "2024-10-24T18:24:52.184Z",
     "lastUpdated": "2024-10-24T18:24:52.184Z",
+    "src": "data/src/Analytics/Pelagic_Fishing_Zone_Dissolved.shp",
     "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": true
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "shipwrecks",
+    "geo_type": "vector",
+    "formats": [
+      "fgb",
+      "json"
+    ],
+    "precalc": true,
+    "layerName": "WreckHeatmap",
+    "classKeys": [
+      "NumberOfRe"
+    ],
+    "created": "2024-10-24T19:33:42.282Z",
+    "lastUpdated": "2024-10-24T19:37:55.515Z",
+    "src": "data/src/Analytics/WreckHeatmap.shp",
+    "propertiesToKeep": [
+      "NumberOfRe"
+    ],
+    "explodeMulti": true
   }
 ]
