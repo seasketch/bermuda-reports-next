@@ -1018,5 +1018,61 @@
       "NumberOfRe"
     ],
     "explodeMulti": true
+  },
+  {
+    "datasourceId": "float_solar",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-24T20:01:26.208Z",
+    "lastUpdated": "2024-10-24T20:01:26.208Z",
+    "src": "data/src/Analytics/SiteSuitability/float_solar1.tif"
+  },
+  {
+    "datasourceId": "wind_fixed",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-24T20:01:40.487Z",
+    "lastUpdated": "2024-10-24T20:01:40.487Z",
+    "src": "data/src/Analytics/SiteSuitability/wind_fixed1.tif"
+  },
+  {
+    "datasourceId": "wind_float",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
+    "created": "2024-10-24T20:01:50.463Z",
+    "lastUpdated": "2024-10-24T20:01:50.463Z",
+    "src": "data/src/Analytics/SiteSuitability/wind_float1.tif"
+  },
+  {
+    "src": "data/src/Analytics/SiteSuitability/wave_energy1.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "wave",
+    "formats": [
+      "tif"
+    ],
+    "created": "2024-10-24T20:02:03.953Z",
+    "lastUpdated": "2024-10-24T20:02:03.953Z",
+    "noDataValue": -3.4e+38,
+    "measurementType": "quantitative",
+    "precalc": true
   }
 ]

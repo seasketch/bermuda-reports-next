@@ -38,6 +38,8 @@
     "src/functions/ousGear.ts",
     "src/functions/ousGearWorker.ts",
     "src/functions/platformEdge.ts",
-    "src/functions/shipwrecks.ts"
+    "src/functions/shipwrecks.ts",
+    "src/functions/renewableEnergy.ts",
+    "src/functions/renewableEnergyWorker.ts"
   ]
 }

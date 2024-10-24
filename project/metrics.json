@@ -608,5 +608,35 @@
         "display": "Shipwrecks"
       }
     ]
+  },
+  {
+    "metricId": "renewableEnergy",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "float_solar",
+        "display": "Floating Solar",
+        "datasourceId": "float_solar",
+        "layerId": "P53aESa3n"
+      },
+      {
+        "classId": "wind_fixed",
+        "display": "Fixed Offshore Wind",
+        "datasourceId": "wind_fixed",
+        "layerId": "w4V8qqKRo"
+      },
+      {
+        "classId": "wind_float",
+        "display": "Floating Offshore Wind",
+        "datasourceId": "wind_float",
+        "layerId": "GWBapgJt9"
+      },
+      {
+        "classId": "wave",
+        "display": "Wave Energy",
+        "datasourceId": "wave",
+        "layerId": "ME3dldxDh"
+      }
+    ]
   }
 ]
