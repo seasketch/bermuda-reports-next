@@ -68,17 +68,21 @@ export async function boundaryAreaOverlap(
     bbox: sketchBox,
   });
 
-  const offshorePolys = difference(
-    featureCollection([...worldPolys, ...nearshorePolys]) as FeatureCollection<
-      Polygon | MultiPolygon,
-      GeoJsonProperties
-    >,
-  );
+  const offshorePolys = nearshorePolys.length
+    ? ([
+        difference(
+          featureCollection([
+            ...worldPolys,
+            ...nearshorePolys,
+          ]) as FeatureCollection<Polygon | MultiPolygon, GeoJsonProperties>,
+        ),
+      ] as Feature[])
+    : worldPolys;
 
   const polysByBoundary: Record<string, Feature[]> = {
     eez: worldPolys,
     nearshore: nearshorePolys,
-    offshore: [offshorePolys!],
+    offshore: offshorePolys!,
   };
 
   const metrics: Metric[] = // calculate area overlap metrics for each class
