@@ -1,7 +1,6 @@
 import React from "react";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import {
-  ClassTable,
   Collapse,
   KeySection,
   LayerToggle,
@@ -15,12 +14,11 @@ import {
   Metric,
   MetricGroup,
   ReportResult,
+  SketchProperties,
   flattenBySketchAllClass,
   isMetricArray,
   metricsWithSketchId,
   percentWithEdge,
-  roundLower,
-  toNullSketchArray,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
@@ -34,7 +32,7 @@ import precalcMetrics from "../../data/bin/shipwrecksPrecalc.json";
  */
 export const Shipwrecks: React.FunctionComponent<GeogProp> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection }] = useSketchProperties();
+  const [{ isCollection, id, childProperties }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -46,10 +44,6 @@ export const Shipwrecks: React.FunctionComponent<GeogProp> = (props) => {
 
   // Labels
   const titleLabel = t("Shipwrecks");
-  const mapLabel = t("Map");
-  const withinLabel = t("Within Plan");
-  const percWithinLabel = t("% Within Plan");
-  const unitsLabel = t("units");
 
   return (
     <ResultsCard
@@ -62,7 +56,7 @@ export const Shipwrecks: React.FunctionComponent<GeogProp> = (props) => {
 
         const valueMetrics = metricsWithSketchId(
           data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-          [data.sketch.properties.id],
+          [id],
         );
         const percentMetrics = toPercentMetric(valueMetrics, precalcMetrics, {
           metricIdOverride: percMetricIdName,
@@ -92,7 +86,11 @@ export const Shipwrecks: React.FunctionComponent<GeogProp> = (props) => {
 
             {isCollection && (
               <Collapse title={t("Show by MPA")}>
-                {genSketchTable(data, metricGroup)}
+                {genSketchTable(
+                  data.metrics,
+                  metricGroup,
+                  childProperties || [],
+                )}
               </Collapse>
             )}
           </ReportError>
@@ -102,18 +100,22 @@ export const Shipwrecks: React.FunctionComponent<GeogProp> = (props) => {
   );
 };
 
-const genSketchTable = (data: ReportResult, metricGroup: MetricGroup) => {
-  // Build agg metric objects for each child sketch in collection with percValue for each class
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
+const genSketchTable = (
+  metrics: Metric[],
+  metricGroup: MetricGroup,
+  childProperties: SketchProperties[],
+) => {
+  const childSketchIds = childProperties
+    ? childProperties.map((skp) => skp.id)
+    : [];
   const childSketchMetrics = metricsWithSketchId(
-    data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+    metrics.filter((m) => m.metricId === metricGroup.metricId),
     childSketchIds,
   );
   const sketchRows = flattenBySketchAllClass(
     childSketchMetrics,
     metricGroup.classes,
-    childSketches,
+    childProperties,
   );
   return <SketchClassTable rows={sketchRows} metricGroup={metricGroup} />;
 };

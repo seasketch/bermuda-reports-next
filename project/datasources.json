@@ -188,7 +188,7 @@
     "layerName": "nearshore_dissolved",
     "classKeys": [],
     "created": "2024-10-18T17:42:19.342Z",
-    "lastUpdated": "2024-10-18T17:42:19.342Z",
+    "lastUpdated": "2025-02-03T23:39:22.325Z",
     "src": "data/src/Analytics/nearshore_dissolved.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -1062,17 +1062,17 @@
     "src": "data/src/Analytics/SiteSuitability/wind_float1.tif"
   },
   {
-    "src": "data/src/Analytics/SiteSuitability/wave_energy1.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "wave",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": -3.4e+38,
     "created": "2024-10-24T20:02:03.953Z",
     "lastUpdated": "2024-10-24T20:02:03.953Z",
-    "noDataValue": -3.4e+38,
-    "measurementType": "quantitative",
-    "precalc": true
+    "src": "data/src/Analytics/SiteSuitability/wave_energy1.tif"
   }
 ]

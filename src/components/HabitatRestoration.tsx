@@ -5,21 +5,17 @@ import {
   Collapse,
   ReportError,
   ResultsCard,
-  SketchClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   GeogProp,
-  Metric,
-  MetricGroup,
   ReportResult,
-  flattenBySketchAllClass,
   metricsWithSketchId,
   squareMeterToMile,
-  toNullSketchArray,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
+import { genSketchTable } from "../util/genSketchTable.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -33,7 +29,7 @@ export const HabitatRestoration: React.FunctionComponent<GeogProp> = (
   props,
 ) => {
   const { t } = useTranslation();
-  const [{ isCollection }] = useSketchProperties();
+  const [{ isCollection, id, childProperties }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -64,7 +60,7 @@ export const HabitatRestoration: React.FunctionComponent<GeogProp> = (
 
         const valueMetrics = metricsWithSketchId(
           data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-          [data.sketch.properties.id],
+          [id],
         );
         const percentMetrics = toPercentMetric(valueMetrics, precalcMetrics, {
           metricIdOverride: percMetricIdName,
@@ -140,7 +136,12 @@ export const HabitatRestoration: React.FunctionComponent<GeogProp> = (
 
             {isCollection && (
               <Collapse title={t("Show by MPA")}>
-                {genSketchTable(data, metricGroup, precalcMetrics)}
+                {genSketchTable(
+                  data,
+                  metricGroup,
+                  precalcMetrics,
+                  childProperties || [],
+                )}
               </Collapse>
             )}
 
@@ -173,30 +174,5 @@ export const HabitatRestoration: React.FunctionComponent<GeogProp> = (
         );
       }}
     </ResultsCard>
-  );
-};
-
-const genSketchTable = (
-  data: ReportResult,
-  metricGroup: MetricGroup,
-  precalcMetrics: Metric[],
-) => {
-  // Build agg metric objects for each child sketch in collection with percValue for each class
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
-  const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(
-      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-      childSketchIds,
-    ),
-    precalcMetrics,
-  );
-  const sketchRows = flattenBySketchAllClass(
-    childSketchMetrics,
-    metricGroup.classes,
-    childSketches,
-  );
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
 };
