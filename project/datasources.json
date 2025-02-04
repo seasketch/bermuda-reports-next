@@ -1074,5 +1074,20 @@
     "created": "2024-10-24T20:02:03.953Z",
     "lastUpdated": "2024-10-24T20:02:03.953Z",
     "src": "data/src/Analytics/SiteSuitability/wave_energy1.tif"
+  },
+  {
+    "src": "data/src/Analytics/PriorityModel/prioritySolutionsEEZ.fgb",
+    "layerName": "prioritySolutionsEEZ",
+    "geo_type": "vector",
+    "datasourceId": "prioritySolutionsEEZ",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2025-02-04T18:27:41.558Z",
+    "lastUpdated": "2025-02-04T18:27:41.558Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]

@@ -5,17 +5,12 @@ import {
   Collapse,
   ReportError,
   ResultsCard,
-  SketchClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   GeogProp,
-  Metric,
-  MetricGroup,
   ReportResult,
-  flattenBySketchAllClass,
   metricsWithSketchId,
-  toNullSketchArray,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";

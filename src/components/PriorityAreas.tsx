@@ -75,7 +75,12 @@ export const PriorityAreas: React.FunctionComponent<GeogProp> = (props) => {
             </p>
             <LayerToggle
               layerId={metricGroup.layerId}
-              label={`Show Priority Areas`}
+              label={`Show Nearshore Priority Areas`}
+            />
+            <VerticalSpacer />
+            <LayerToggle
+              layerId={"zUzhwXQVI"}
+              label={`Show Offshore Priority Areas`}
             />
             <VerticalSpacer />
             {isCollection ? genNetwork(data) : genSingle(data, userAttributes)}

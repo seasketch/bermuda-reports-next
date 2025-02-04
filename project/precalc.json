@@ -474,6 +474,14 @@
   {
     "geographyId": "world",
     "metricId": "area",
+    "classId": "prioritySolutionsEEZ-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 96890475499.21095
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
     "classId": "restoration_coral-total",
     "sketchId": null,
     "groupId": null,
@@ -1094,6 +1102,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 645
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "prioritySolutionsEEZ-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 648
   },
   {
     "geographyId": "world",

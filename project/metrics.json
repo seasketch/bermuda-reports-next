@@ -124,7 +124,7 @@
       {
         "classId": "priorityAreas",
         "display": "Priority Areas",
-        "datasourceId": "priorityModel"
+        "datasourceId": "prioritySolutionsEEZ"
       }
     ]
   },
