@@ -7,11 +7,6 @@
       "name": "MpaTabReport",
       "description": "Report suite for MPA planning within EEZ with tab navigation",
       "source": "src/clients/MpaTabReport.tsx"
-    },
-    {
-      "name": "SizeReport",
-      "description": "Sketch size and % overlap with planning boundaries",
-      "source": "src/clients/SizeReport.tsx"
     }
   ],
   "preprocessingFunctions": ["src/functions/clipToOceanEez.ts"],
@@ -30,9 +25,7 @@
     "src/functions/speciesProtectionWorker.ts",
     "src/functions/habitatRestoration.ts",
     "src/functions/ousSector.ts",
-    "src/functions/ousSectorWorker.ts",
     "src/functions/ousGear.ts",
-    "src/functions/ousGearWorker.ts",
     "src/functions/platformEdge.ts",
     "src/functions/shipwrecks.ts",
     "src/functions/renewableEnergy.ts",

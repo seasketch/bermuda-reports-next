@@ -2,9 +2,7 @@
   {
     "datasourceId": "global-clipping-osm-land",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "gid",
     "nameProperty": "gid",
@@ -14,9 +12,7 @@
   {
     "datasourceId": "global-clipping-eez-land-union",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "UNION",
     "nameProperty": "UNION",
@@ -26,10 +22,7 @@
   {
     "datasourceId": "global-eez-mr-v12",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "metadata": {
       "name": "World EEZ v11",
@@ -43,14 +36,10 @@
     "nameProperty": "GEONAME",
     "propertyFilter": {
       "property": "GEONAME",
-      "values": [
-        "British Exclusive Economic Zone (Bermuda)"
-      ]
+      "values": ["British Exclusive Economic Zone (Bermuda)"]
     },
     "bboxFilter": [
-      -68.91705579978532,
-      28.90577059963361,
-      -60.704798800424165,
+      -68.91705579978532, 28.90577059963361, -60.704798800424165,
       35.80855140022713
     ],
     "classKeys": [],
@@ -59,10 +48,7 @@
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": [
-      "json",
-      "fgb"
-    ],
+    "formats": ["json", "fgb"],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -79,9 +65,7 @@
   {
     "datasourceId": "bo-present-surface-ph",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface pH",
@@ -93,17 +77,15 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.3999999521443642e+38,
+    "noDataValue": -3.3999999521443642e38,
     "created": "2023-12-11T11:55:31.053Z",
-    "lastUpdated": "2023-12-11T12:52:22.966Z",
+    "lastUpdated": "2025-05-30T21:15:44.617Z",
     "src": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-ph.tif"
   },
   {
     "datasourceId": "bo-present-surface-temp-max",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Maximum",
@@ -115,15 +97,13 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-max.tif"
   },
   {
     "datasourceId": "bo-present-surface-temp-min",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Minimum",
@@ -135,15 +115,13 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-min.tif"
   },
   {
     "datasourceId": "meow-ecos",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": false,
     "metadata": {
       "name": "Marine Ecoregions of the World",
@@ -162,33 +140,25 @@
   {
     "datasourceId": "existingProtections",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Legislated_All",
-    "classKeys": [
-      "Type"
-    ],
+    "classKeys": ["Type"],
     "created": "2024-10-17T22:24:26.652Z",
-    "lastUpdated": "2024-10-17T22:24:26.652Z",
+    "lastUpdated": "2025-05-30T21:15:44.829Z",
     "src": "data/src/next-reports/Legislated_All.shp",
-    "propertiesToKeep": [
-      "Type"
-    ],
+    "propertiesToKeep": ["Type"],
     "explodeMulti": true
   },
   {
     "datasourceId": "nearshore_dissolved",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": false,
     "layerName": "nearshore_dissolved",
     "classKeys": [],
     "created": "2024-10-18T17:42:19.342Z",
-    "lastUpdated": "2025-02-03T23:39:22.325Z",
+    "lastUpdated": "2025-05-30T21:15:44.890Z",
     "src": "data/src/Analytics/nearshore_dissolved.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -196,14 +166,12 @@
   {
     "datasourceId": "nurseryReef",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "PatchReef_JoannaEdit_simplify_00002",
     "classKeys": [],
     "created": "2024-10-18T21:39:34.694Z",
-    "lastUpdated": "2024-10-18T21:39:34.694Z",
+    "lastUpdated": "2025-05-30T21:15:45.219Z",
     "src": "data/src/Analytics/NurseryHabs/PatchReef_JoannaEdit_simplify_00002.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -211,14 +179,12 @@
   {
     "datasourceId": "nurseryMangroves",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Mangroves_2023",
     "classKeys": [],
     "created": "2024-10-18T21:40:02.875Z",
-    "lastUpdated": "2024-10-18T21:40:02.875Z",
+    "lastUpdated": "2025-05-30T21:15:45.290Z",
     "src": "data/src/Analytics/NurseryHabs/Mangroves_2023.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -226,14 +192,12 @@
   {
     "datasourceId": "nurserySeagrass",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Seagrass_2014_50mbuff",
     "classKeys": [],
     "created": "2024-10-18T21:40:28.358Z",
-    "lastUpdated": "2024-10-18T21:40:28.358Z",
+    "lastUpdated": "2025-05-30T21:15:45.364Z",
     "src": "data/src/Analytics/NurseryHabs/Seagrass_2014_50mbuff.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -241,14 +205,12 @@
   {
     "datasourceId": "priorityModel",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "prioritySolution",
     "classKeys": [],
     "created": "2024-10-21T18:35:40.205Z",
-    "lastUpdated": "2024-10-21T18:35:40.205Z",
+    "lastUpdated": "2025-05-30T21:15:45.422Z",
     "src": "data/src/Analytics/PriorityModel/prioritySolution.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -256,350 +218,300 @@
   {
     "datasourceId": "nearshore_habitat",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "categorical",
     "band": 1,
-    "noDataValue": -3.4028235e+38,
+    "noDataValue": -3.4028235e38,
     "created": "2024-10-21T19:56:34.896Z",
-    "lastUpdated": "2024-10-21T19:56:34.896Z",
+    "lastUpdated": "2025-05-30T21:15:45.658Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Habitat Zones1.tif"
   },
   {
     "datasourceId": "offshore_abyssopelagic",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:27:45.053Z",
-    "lastUpdated": "2024-10-21T20:27:45.053Z",
+    "lastUpdated": "2025-05-30T21:15:45.763Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_feature_abyssopelagic.tif"
   },
   {
     "datasourceId": "offshore_bathypelagic",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:28:08.138Z",
-    "lastUpdated": "2024-10-21T20:28:08.138Z",
+    "lastUpdated": "2025-05-30T21:15:45.877Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Bathypelagic1.tif"
   },
   {
     "datasourceId": "offshore_coldWaterCoral",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:28:29.669Z",
-    "lastUpdated": "2024-10-21T20:28:29.669Z",
+    "lastUpdated": "2025-05-30T21:15:45.989Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Cold water coral1.tif"
   },
   {
     "datasourceId": "offshore_escarpments",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:28:46.029Z",
-    "lastUpdated": "2024-10-21T20:28:46.029Z",
+    "lastUpdated": "2025-05-30T21:15:46.094Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Escarpments1.tif"
   },
   {
     "datasourceId": "offshore_knolls",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:29:01.678Z",
-    "lastUpdated": "2024-10-21T20:29:01.678Z",
+    "lastUpdated": "2025-05-30T21:15:46.200Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Knolls1.tif"
   },
   {
     "datasourceId": "offshore_pelagic1",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:29:21.454Z",
-    "lastUpdated": "2024-10-21T20:29:21.454Z",
+    "lastUpdated": "2025-05-30T21:15:46.306Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 1.tif"
   },
   {
     "datasourceId": "offshore_pelagic2",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:29:35.649Z",
-    "lastUpdated": "2024-10-21T20:29:35.649Z",
+    "lastUpdated": "2025-05-30T21:15:46.417Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 2.tif"
   },
   {
     "datasourceId": "offshore_pelagic3",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:29:51.104Z",
-    "lastUpdated": "2024-10-21T20:29:51.104Z",
+    "lastUpdated": "2025-05-30T21:15:46.526Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Pelagic zone 3.tif"
   },
   {
     "datasourceId": "offshore_plains",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:30:05.076Z",
-    "lastUpdated": "2024-10-21T20:30:05.076Z",
+    "lastUpdated": "2025-05-30T21:15:46.638Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Plains.tif"
   },
   {
     "datasourceId": "offshore_seamounts",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T20:30:23.110Z",
-    "lastUpdated": "2024-10-21T20:30:23.110Z",
+    "lastUpdated": "2025-05-30T21:15:47.059Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_SeamountsAll.tif"
   },
   {
     "datasourceId": "species_commercialFishDensityPlatform",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:26:41.313Z",
-    "lastUpdated": "2024-10-21T22:26:41.313Z",
+    "lastUpdated": "2025-05-30T21:15:47.281Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_commercial_fish_density_platform.tif"
   },
   {
     "datasourceId": "species_commericalFishingDiversityPlatform",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:27:09.421Z",
-    "lastUpdated": "2024-10-21T22:27:09.421Z",
+    "lastUpdated": "2025-05-30T21:15:47.529Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_commercial_fish_diversity_platform.tif"
   },
   {
     "datasourceId": "species_commercialFishRecruitDensity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-21T22:27:46.705Z",
-    "lastUpdated": "2024-10-21T22:27:46.705Z",
+    "lastUpdated": "2025-05-30T21:15:47.703Z",
     "src": "data/src/Analytics/Prioritization Inputs/commercial_fish_recruit_density_2023.tif"
   },
   {
     "datasourceId": "species_bruvsFishDiversity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:28:09.830Z",
-    "lastUpdated": "2024-10-21T22:28:09.830Z",
+    "lastUpdated": "2025-05-30T21:15:47.908Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_bruvs_fish_diversity.tif"
   },
   {
     "datasourceId": "species_coralCover",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:28:27.904Z",
-    "lastUpdated": "2024-10-21T22:28:27.904Z",
+    "lastUpdated": "2025-05-30T21:15:48.117Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral cover1.tif"
   },
   {
     "datasourceId": "species_coralDiversityRichness",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:28:54.276Z",
-    "lastUpdated": "2024-10-21T22:28:54.276Z",
+    "lastUpdated": "2025-05-30T21:15:48.327Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral diversity (richness)1.tif"
   },
   {
     "datasourceId": "species_coralRecruitDensity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:29:12.266Z",
-    "lastUpdated": "2024-10-21T22:29:12.266Z",
+    "lastUpdated": "2025-05-30T21:15:48.535Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Coral recruit density1.tif"
   },
   {
     "datasourceId": "species_rugosity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:29:29.562Z",
-    "lastUpdated": "2024-10-21T22:29:29.562Z",
+    "lastUpdated": "2025-05-30T21:15:48.740Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Rugosity1.tif"
   },
   {
     "datasourceId": "species_fishDiversityBRUVs",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:30:13.245Z",
-    "lastUpdated": "2024-10-21T22:30:13.245Z",
+    "lastUpdated": "2025-05-30T21:15:48.965Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish diversity (BRUVs data)1.tif"
   },
   {
     "datasourceId": "species_fishDensity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:30:29.833Z",
-    "lastUpdated": "2024-10-21T22:30:29.833Z",
+    "lastUpdated": "2025-05-30T21:15:49.186Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish density1.tif"
   },
   {
     "datasourceId": "species_fishDiversityBREAM",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:30:48.431Z",
-    "lastUpdated": "2024-10-21T22:30:48.431Z",
+    "lastUpdated": "2025-05-30T21:15:49.415Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Fish diversity (BREAM data)1.tif"
   },
   {
     "datasourceId": "species_fishRecruitDensity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-21T22:31:12.788Z",
-    "lastUpdated": "2024-10-21T22:31:12.788Z",
+    "lastUpdated": "2025-05-30T21:15:49.585Z",
     "src": "data/src/Analytics/Prioritization Inputs/fish_recruit_density_2023.tif"
   },
   {
     "datasourceId": "species_seagrassIndexValue",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-21T22:31:33.199Z",
-    "lastUpdated": "2024-10-21T22:31:33.199Z",
+    "lastUpdated": "2025-05-30T21:15:49.733Z",
     "src": "data/src/Analytics/Prioritization Inputs/wgs84_Seagrass Index Value1.tif"
   },
   {
     "datasourceId": "restoration_coral",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "coral_restoration_areas",
     "classKeys": [],
     "created": "2024-10-22T18:35:30.489Z",
-    "lastUpdated": "2024-10-22T18:35:30.489Z",
+    "lastUpdated": "2025-05-30T21:15:49.796Z",
     "src": "data/src/Analytics/SiteSuitability/coral_restoration_areas.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -607,14 +519,12 @@
   {
     "datasourceId": "restoration_seagrass",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "seagrass_restoration_500mbuff",
     "classKeys": [],
     "created": "2024-10-22T18:36:03.191Z",
-    "lastUpdated": "2024-10-22T18:36:03.191Z",
+    "lastUpdated": "2025-05-30T21:15:49.851Z",
     "src": "data/src/Analytics/SiteSuitability/seagrass_restoration_500mbuff.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -622,14 +532,12 @@
   {
     "datasourceId": "restoration_mangrove",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "mangrove_restoration_500mbuff",
     "classKeys": [],
     "created": "2024-10-22T18:36:29.023Z",
-    "lastUpdated": "2024-10-22T18:36:29.023Z",
+    "lastUpdated": "2025-05-30T21:15:49.901Z",
     "src": "data/src/Analytics/SiteSuitability/mangrove_restoration_500mbuff.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -637,364 +545,312 @@
   {
     "datasourceId": "ous_aquaculture",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:00:32.260Z",
-    "lastUpdated": "2024-10-22T19:00:32.260Z",
+    "lastUpdated": "2025-05-30T21:15:50.027Z",
     "src": "data/src/Analytics/OUS Heatmaps/aquaculture_heatmap.tif"
   },
   {
     "datasourceId": "ous_boating",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:00:48.798Z",
-    "lastUpdated": "2024-10-22T19:00:48.798Z",
+    "lastUpdated": "2025-05-30T21:15:50.588Z",
     "src": "data/src/Analytics/OUS Heatmaps/boating_heatmap.tif"
   },
   {
     "datasourceId": "ous_passiveRecConservation",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:01:10.144Z",
-    "lastUpdated": "2024-10-22T19:01:10.144Z",
+    "lastUpdated": "2025-05-30T21:15:50.752Z",
     "src": "data/src/Analytics/OUS Heatmaps/passiverec_conservation_heatmap.tif"
   },
   {
     "datasourceId": "ous_recFishing",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:01:25.804Z",
-    "lastUpdated": "2024-10-22T19:01:25.804Z",
+    "lastUpdated": "2025-05-30T21:15:50.949Z",
     "src": "data/src/Analytics/OUS Heatmaps/recreational_fishing_heatmap.tif"
   },
   {
     "datasourceId": "ous_shipping",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:01:38.835Z",
-    "lastUpdated": "2024-10-22T19:01:38.835Z",
+    "lastUpdated": "2025-05-30T21:15:51.072Z",
     "src": "data/src/Analytics/OUS Heatmaps/shipping_heatmap.tif"
   },
   {
     "datasourceId": "ous_swimSnorkelDive",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:01:55.147Z",
-    "lastUpdated": "2024-10-22T19:01:55.147Z",
+    "lastUpdated": "2025-05-30T21:15:51.209Z",
     "src": "data/src/Analytics/OUS Heatmaps/swim_snorkel_dive_heatmap.tif"
   },
   {
     "datasourceId": "ous_tourism",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:02:10.139Z",
-    "lastUpdated": "2024-10-22T19:02:10.139Z",
+    "lastUpdated": "2025-05-30T21:15:51.322Z",
     "src": "data/src/Analytics/OUS Heatmaps/tourism_heatmap.tif"
   },
   {
     "datasourceId": "ous_utilities",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:02:24.241Z",
-    "lastUpdated": "2024-10-22T19:02:24.241Z",
+    "lastUpdated": "2025-05-30T21:15:51.436Z",
     "src": "data/src/Analytics/OUS Heatmaps/utilities_heatmap.tif"
   },
   {
     "datasourceId": "ous_comFishing",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T19:08:38.346Z",
-    "lastUpdated": "2024-10-22T19:08:38.346Z",
+    "lastUpdated": "2025-05-30T21:16:03.319Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/commercial_fishing.tif"
   },
   {
     "datasourceId": "ous_baitInshore",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:29:57.565Z",
-    "lastUpdated": "2024-10-22T21:29:57.565Z",
+    "lastUpdated": "2025-05-30T21:16:03.468Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bait_inshore.tif"
   },
   {
     "datasourceId": "ous_baitPelagic",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:30:16.380Z",
-    "lastUpdated": "2024-10-22T21:30:16.380Z",
+    "lastUpdated": "2025-05-30T21:16:03.655Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bait_pelagic.tif"
   },
   {
     "datasourceId": "ous_bottomAll",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:32:17.030Z",
-    "lastUpdated": "2024-10-22T21:32:17.030Z",
+    "lastUpdated": "2025-05-30T21:16:03.950Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_all.tif"
   },
   {
     "datasourceId": "ous_bottomGeneralOther",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:32:28.951Z",
-    "lastUpdated": "2024-10-22T21:32:28.951Z",
+    "lastUpdated": "2025-05-30T21:16:04.311Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_other.tif"
   },
   {
     "datasourceId": "ous_bottomGeneralSnapper",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:32:50.482Z",
-    "lastUpdated": "2024-10-22T21:32:50.482Z",
+    "lastUpdated": "2025-05-30T21:16:04.497Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_snapper.tif"
   },
   {
     "datasourceId": "ous_bottomGeneralTurbot",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:34:45.922Z",
-    "lastUpdated": "2024-10-22T21:34:45.922Z",
+    "lastUpdated": "2025-05-30T21:16:04.649Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general_turbot.tif"
   },
   {
     "datasourceId": "ous_bottomGeneral",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:35:04.966Z",
-    "lastUpdated": "2024-10-22T21:35:04.966Z",
+    "lastUpdated": "2025-05-30T21:16:04.970Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/bottom_general.tif"
   },
   {
     "datasourceId": "ous_catchRelease",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:35:21.490Z",
-    "lastUpdated": "2024-10-22T21:35:21.490Z",
+    "lastUpdated": "2025-05-30T21:16:05.260Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/catch_release.tif"
   },
   {
     "datasourceId": "ous_shark",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:35:43.162Z",
-    "lastUpdated": "2024-10-22T21:35:43.162Z",
+    "lastUpdated": "2025-05-30T21:16:05.467Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/shark.tif"
   },
   {
     "datasourceId": "ous_trappingGuineaChick",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:36:05.487Z",
-    "lastUpdated": "2024-10-22T21:36:05.487Z",
+    "lastUpdated": "2025-05-30T21:16:05.647Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping_guinea_chick.tif"
   },
   {
     "datasourceId": "ous_trappingSpinyLobster",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:36:27.365Z",
-    "lastUpdated": "2024-10-22T21:36:27.365Z",
+    "lastUpdated": "2025-05-30T21:16:05.816Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping_spiny_lobster.tif"
   },
   {
     "datasourceId": "ous_trapping",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:36:40.372Z",
-    "lastUpdated": "2024-10-22T21:36:40.372Z",
+    "lastUpdated": "2025-05-30T21:16:05.984Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trapping.tif"
   },
   {
     "datasourceId": "ous_trollingPelagic",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:36:57.713Z",
-    "lastUpdated": "2024-10-22T21:36:57.713Z",
+    "lastUpdated": "2025-05-30T21:16:06.301Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling_pelagic.tif"
   },
   {
     "datasourceId": "ous_trollingRockfish",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:37:11.008Z",
-    "lastUpdated": "2024-10-22T21:37:11.008Z",
+    "lastUpdated": "2025-05-30T21:16:06.533Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling_rockfish.tif"
   },
   {
     "datasourceId": "ous_trolling",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:37:25.416Z",
-    "lastUpdated": "2024-10-22T21:37:25.416Z",
+    "lastUpdated": "2025-05-30T21:16:06.829Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/trolling.tif"
   },
   {
     "datasourceId": "ous_verticalLining",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-10-22T21:37:46.034Z",
-    "lastUpdated": "2024-10-22T21:37:46.034Z",
+    "lastUpdated": "2025-05-30T21:16:07.051Z",
     "src": "data/src/Data_Products/heatmaps/commercial-fishing-heatmaps/weighted/vertical_lining.tif"
   },
   {
     "datasourceId": "pelagicFishingZone",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Pelagic_Fishing_Zone_Dissolved",
     "classKeys": [],
     "created": "2024-10-24T18:24:52.184Z",
-    "lastUpdated": "2024-10-24T18:24:52.184Z",
+    "lastUpdated": "2025-05-30T21:16:07.108Z",
     "src": "data/src/Analytics/Pelagic_Fishing_Zone_Dissolved.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -1002,92 +858,75 @@
   {
     "datasourceId": "shipwrecks",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "WreckHeatmap",
-    "classKeys": [
-      "NumberOfRe"
-    ],
+    "classKeys": ["NumberOfRe"],
     "created": "2024-10-24T19:33:42.282Z",
-    "lastUpdated": "2024-10-24T19:37:55.515Z",
+    "lastUpdated": "2025-05-30T21:16:07.176Z",
     "src": "data/src/Analytics/WreckHeatmap.shp",
-    "propertiesToKeep": [
-      "NumberOfRe"
-    ],
+    "propertiesToKeep": ["NumberOfRe"],
     "explodeMulti": true
   },
   {
     "datasourceId": "float_solar",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-24T20:01:26.208Z",
-    "lastUpdated": "2024-10-24T20:01:26.208Z",
+    "lastUpdated": "2025-05-30T21:16:07.605Z",
     "src": "data/src/Analytics/SiteSuitability/float_solar1.tif"
   },
   {
     "datasourceId": "wind_fixed",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-24T20:01:40.487Z",
-    "lastUpdated": "2024-10-24T20:01:40.487Z",
+    "lastUpdated": "2025-05-30T21:16:08.071Z",
     "src": "data/src/Analytics/SiteSuitability/wind_fixed1.tif"
   },
   {
     "datasourceId": "wind_float",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-24T20:01:50.463Z",
-    "lastUpdated": "2024-10-24T20:01:50.463Z",
+    "lastUpdated": "2025-05-30T21:16:08.441Z",
     "src": "data/src/Analytics/SiteSuitability/wind_float1.tif"
   },
   {
     "datasourceId": "wave",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.4e+38,
+    "noDataValue": -3.4e38,
     "created": "2024-10-24T20:02:03.953Z",
-    "lastUpdated": "2024-10-24T20:02:03.953Z",
+    "lastUpdated": "2025-05-30T21:16:09.052Z",
     "src": "data/src/Analytics/SiteSuitability/wave_energy1.tif"
   },
   {
-    "src": "data/src/Analytics/PriorityModel/prioritySolutionsEEZ.fgb",
-    "layerName": "prioritySolutionsEEZ",
-    "geo_type": "vector",
     "datasourceId": "prioritySolutionsEEZ",
-    "formats": [
-      "fgb"
-    ],
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "prioritySolutionsEEZ",
     "classKeys": [],
     "created": "2025-02-04T18:27:41.558Z",
-    "lastUpdated": "2025-02-04T18:27:41.558Z",
+    "lastUpdated": "2025-05-30T21:16:09.111Z",
+    "src": "data/src/Analytics/PriorityModel/prioritySolutionsEEZ.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": true
+    "explodeMulti": true
   }
 ]

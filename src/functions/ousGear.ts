@@ -6,20 +6,18 @@ import {
   GeoprocessingHandler,
   getFirstFromParam,
   DefaultExtraParams,
-  runLambdaWorker,
-  parseLambdaResponse,
+  loadCog,
+  rasterMetrics,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
   GeoprocessingRequestModel,
   Metric,
   ReportResult,
-  isMetricArray,
+  isRasterDatasource,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { ousGearWorker } from "./ousGearWorker.js";
 
 /**
  * ousGear: A geoprocessing function that calculates overlap metrics
@@ -47,49 +45,45 @@ export async function ousGear(
   const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
-        const parameters = {
-          ...extraParams,
-          geography: curGeography,
-          metricGroup,
-          classId: curClass.classId,
-        };
+        if (!curClass.datasourceId)
+          throw new Error(`Expected datasourceId for ${curClass.classId}`);
 
-        return process.env.NODE_ENV === "test"
-          ? ousGearWorker(sketch, parameters)
-          : runLambdaWorker(
-              sketch,
-              project.package.name,
-              "ousGearWorker",
-              project.geoprocessing.region,
-              parameters,
-              request!,
-            );
+        const ds = project.getDatasourceById(curClass.datasourceId);
+        if (!isRasterDatasource(ds))
+          throw new Error(`Expected raster datasource for ${ds.datasourceId}`);
+
+        const url = project.getDatasourceUrl(ds);
+
+        const raster = await loadCog(url);
+        const overlapResult = await rasterMetrics(raster, {
+          metricId: metricGroup.metricId,
+          feature: sketch,
+          ...(ds.measurementType === "quantitative" && { stats: ["sum"] }),
+        });
+
+        return overlapResult.map(
+          (metrics): Metric => ({
+            ...metrics,
+            classId: curClass.classId,
+            geographyId: curGeography.geographyId,
+          }),
+        );
       }),
     )
-  ).reduce<Metric[]>(
-    (metrics, result) =>
-      metrics.concat(
-        isMetricArray(result)
-          ? result
-          : (parseLambdaResponse(result) as Metric[]),
-      ),
-    [],
-  );
+  ).flat();
 
-  // Return a report result with metrics and a null sketch
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
   };
 }
 
 export default new GeoprocessingHandler(ousGear, {
   title: "ousGear",
   description: "Overlap with OUS by sector",
-  timeout: 500, // seconds
-  memory: 1024, // megabytes
+  timeout: 900, // seconds
+  memory: 4096, // megabytes
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
-  workers: ["ousGearWorker"],
+  workers: [],
 });

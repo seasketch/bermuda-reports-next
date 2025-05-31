@@ -16,5 +16,5 @@ describe("Basic smoke tests", () => {
       expect(result).toBeTruthy();
       writeResultOutput(result, "ousSector", example.properties.name);
     }
-  }, 60_000);
+  }, 600_000);
 });
